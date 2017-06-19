@@ -1,23 +1,24 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+var React = require('react');
 
 import '../App.css';
 
-export default class Header extends Component {
+var Header = React.createClass({
 
-    render(){
+	render(){
 
-        return (
+		return (
 			<header className="navbar">
 				<div className="navbar-header">
-					<Link className="navbar-brand" to="/">
+					<a className="navbar-brand" href="#/app/dashboard">
 						CoreID
-					</Link>
+					</a>
 				</div>
 				<div className="navbar-collapse"></div>
 
 			</header>
-        );
-    }
+		);
+	}
 
-}
+});
+
+module.exports = Header;
