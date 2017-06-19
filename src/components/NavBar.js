@@ -1,14 +1,10 @@
-var React = require('react');
+import React, { Component } from 'react';
 
-var NavBar = React.createClass({
 
-	render(){
-
-		return (
-			<div id="navbar" class="sidebar app-aside">Prelim NavBar Section</div>
-		);
-	}
-
-});
-
-module.exports = NavBar;
+export default class NavBar extends Component {
+    render(){
+        return (
+            <div id="navbar" class="sidebar app-aside">Prelim NavBar Section</div>
+        );
+    }
+}
