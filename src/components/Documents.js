@@ -37,7 +37,7 @@ export default class Documents extends Component {
                                     <td>04-01-2017</td>
                                     <td>Core Credit Union</td>
                                     <td className="hidden-xs ti-check icon-yes"/>
-                                    <td className="hidden-xs ti-check icon-yes"/>
+                                    <td className="hidden-xs ti-close icon-no"/>
                                     <td className="center">
                                         <div className="visible-md visible-lg hidden-sm hidden-xs">
                                             <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Share"><i className="ti-control-forward"></i></a>
@@ -55,7 +55,7 @@ export default class Documents extends Component {
                                     <td className="hidden-xs">01-01-2017</td>
                                     <td>CCU - 2</td>
                                     <td className="hidden-xs ti-check icon-yes"/>
-                                    <td className="hidden-xs ti-check icon-yes"/>
+                                    <td className="hidden-xs ti-close icon-no"/>
                                     <td className="center">
                                         <div className="visible-md visible-lg hidden-sm hidden-xs">
                                             <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Share"><i className="ti-control-forward"></i></a>
@@ -90,7 +90,7 @@ export default class Documents extends Component {
                                     </td>
                                     <td className="hidden-xs">01-01-2016</td>
                                     <td>Core Credit Union</td>
-                                    <td className="hidden-xs ti-check icon-yes"/>
+                                    <td className="hidden-xs ti-close icon-no"/>
                                     <td className="hidden-xs ti-check icon-yes"/>
                                     <td className="center">
                                         <div className="visible-md visible-lg hidden-sm hidden-xs">
@@ -108,8 +108,8 @@ export default class Documents extends Component {
                                     </td>
                                     <td className="hidden-xs">03-01-2017</td>
                                     <td>Core Credit Union</td>
-                                    <td className="hidden-xs ti-check icon-yes"/>
-                                    <td className="hidden-xs ti-check icon-yes"/>
+                                    <td className="hidden-xs ti-close icon-no"/>
+                                    <td className="hidden-xs ti-close icon-no"/>
                                     <td className="center">
                                         <div className="visible-md visible-lg hidden-sm hidden-xs">
                                             <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Share"><i className="ti-control-forward"></i></a>
@@ -145,7 +145,7 @@ export default class Documents extends Component {
                                     <td className="hidden-xs">04-15-2017</td>
                                     <td>Core Credit Union</td>
                                     <td className="hidden-xs ti-check icon-yes"/>
-                                    <td className="hidden-xs ti-check icon-yes"/>
+                                    <td className="hidden-xs ti-close icon-no"/>
                                     <td className="center">
                                         <div className="visible-md visible-lg hidden-sm hidden-xs">
                                             <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Share"><i className="ti-control-forward"></i></a>
