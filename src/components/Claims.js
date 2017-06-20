@@ -17,7 +17,7 @@ export default class Claims extends Component {
         return (
 
         	<div className="col-md-12">
-				<h5 className="over-title">Defining a <span className="text-bold">Fieldset</span></h5>
+				<h5 className="over-title">Claims/Attestations</h5>
 				<p className="margin-bottom-30">
 					is used as a wrapper right inside the form element. Right after you define a fieldset, you can include a legend title by using. Here's some HTML to help make copy paste.
 				</p>
