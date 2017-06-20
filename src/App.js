@@ -23,9 +23,8 @@ class App extends Component {
                     <Sidebar/>
                     <div className='app-content'>
                         <Header/>
-
+                        <NavBar/>
                         <div className="main-content">
-                            <NavBar/>
                             <Route exact path='/' component={Index} />
                             <Route path='/sandbox' component={Sandbox} />
                             <Route path='/documents' component={Documents} />
