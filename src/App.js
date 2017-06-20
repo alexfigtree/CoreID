@@ -9,6 +9,7 @@ import Sandbox from './components/Sandbox';
 import Identity from './components/Identity';
 import Documents from './components/Documents';
 import Signatures from './components/Signatures';
+import Claims from './components/Claims';
 
 import Sidebar from './components/Sidebar';
 import Header from'./components/Header';
@@ -30,6 +31,7 @@ class App extends Component {
                             <Route path='/documents' component={Documents} />
                             <Route path='/identity' component={Identity} />
                             <Route path='/signatures' component={Signatures} />
+                            <Route path='/claims' component={Claims} />
                         </div>
                     </div>
 
