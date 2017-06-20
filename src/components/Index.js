@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
 import claims from '../../data/claims.json';
-import documents from '../../data/documents.json';
+import documents from '../../data/payload.json';
+
 console.log(claims, documents);
 
 // import '../Shared/signing';
@@ -47,14 +48,14 @@ export default class Index extends Component {
 
     renderDocument (document) {
         return (
-            <h3>{document.title}</h3>
+            <h3>{JSON.stringify(document)}</h3>
         )
     }
 
     renderDocuments () {
         return (
             <div className='documents-container'>
-                { documents.payload.map((document) => this.renderDocument(document)) }
+                { documents.entries.map((document) => this.renderDocument(document)) }
             </div>
         )
     }

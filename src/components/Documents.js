@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import documents from '../../data/documents.json';
+import documents from '../../data/payload.json';
 
 import './Documents.css';
 
@@ -104,17 +104,22 @@ export default class Documents extends Component {
             </div>
         );
     }
+    signDocument(document){
+      console.log(JSON.stringify(document))
+
+    }
 
     renderDocument (document) {
         return (
-            <h3>{document.title}</h3>
+            <h3> <button type="submit" className="btn btn-wide btn-o btn-primary" onClick={this.signDocument.bind(this,document)}>Sign</button> <a href={document.title}>{JSON.stringify(document)} </a></h3>
+
         )
     }
 
     renderDocuments () {
         return (
             <div className='documents-container'>
-                { documents.payload.map((document) => this.renderDocument(document)) }
+                { documents.entries.map((document) => this.renderDocument(document)) }
             </div>
         )
     }
