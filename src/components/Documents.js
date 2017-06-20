@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 import documents from '../../data/payload.json';
+import bitcoin from 'bitcoin'
+import crypto from 'crypto'
 
 import './Documents.css';
 
@@ -106,6 +108,26 @@ export default class Documents extends Component {
     }
     signDocument(document){
       console.log(JSON.stringify(document))
+      var client = new bitcoin.Client({
+        host: 'localhost',
+        port: 8332,
+        user: 'fred',
+        pass: 'fred'
+      })
+      var address = "mjH9KTBnNyzdLifkr6xch5FkXnGdbf27mq"
+      var message = JSON.stringify(document.payload)
+      var signaturePayload = {}
+
+      console.log(message)
+      client.signMessage(address, message,function(err,signature){
+        if(err){
+          return console.error(err);
+        }
+        signaturePayload["address"] = address
+        signaturePayload["signature"] = signature
+        console.log(signature)
+        console.log(address)
+      })
 
     }
 
