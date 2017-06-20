@@ -864,9 +864,17 @@ ul.sub-menu li ul.sub-menu li ul.sub-menu li a {
 /* ---------------------------------------------------------------------- */
 /*  Tables
 /* ---------------------------------------------------------------------- */
+
 .icon-yes {
-  font-weight: 900;
+  font-weight: 900 !important;
   color: lawngreen !important;
+  font-size: 16px;
+  padding-left: 20px !important;
+}
+
+.icon-no {
+  font-weight: 900 !important;
+  color: red !important;
   font-size: 16px;
   padding-left: 20px !important;
 }
@@ -912,7 +920,7 @@ tr {
 
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
   border-bottom: 1px solid #e2e2e4;
-  color: #5b5b60 !important;
+  color: #5b5b60;
   border-top: none;
 }
 
