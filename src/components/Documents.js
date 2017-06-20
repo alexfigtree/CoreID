@@ -17,15 +17,12 @@ export default class Documents extends Component {
                             <a href="#" className="ti-plus icon-yes"/>
                         </h5>
                         <p>
-                            Find all documents/claims for transactions below.
+                            Find all documents for transactions below.
                         </p>
                         <table className="table table-hover" id="sample-table-1">
                             <thead>
                                 <tr>
-                                    <th className="center">Select</th>
                                     <th className="sortable">File Name</th>
-                                    <th className="hidden-xs">Document</th>
-                                    <th className="hidden-xs">Attestation</th>
                                     <th className="hidden-xs">Date Added</th>
                                     <th className="hidden-xs">Date Signed</th>
                                     <th className="hidden-xs">Verified</th>
@@ -34,14 +31,11 @@ export default class Documents extends Component {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td className="center"><input type="checkbox"/></td>
                                     <td>
                                         <a href="#" rel="nofollow" target="_blank">
                                             Promissory Note
                                         </a>
                                     </td>
-                                    <td className="hidden-xs ti-check icon-yes"/>
-                                    <td className="hidden-xs ti-close icon-no"/>
                                     <td className="hidden-xs">April 22, 2017</td>
                                     <td className="hidden-xs">Unsigned</td>
                                     <td>No</td>
@@ -53,14 +47,11 @@ export default class Documents extends Component {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td className="center"><input type="checkbox"/></td>
                                     <td>
                                         <a href="#" rel="nofollow noopener noreferrer" target="_blank">
                                             Home Address
                                         </a>
                                     </td>
-                                    <td className="hidden-xs ti-check icon-yes"/>
-                                    <td className="hidden-xs ti-close icon-no"/>
                                     <td className="hidden-xs">February 2, 2016</td>
                                     <td>February 10, 2016</td>
                                     <td>Yes</td>
@@ -83,15 +74,12 @@ export default class Documents extends Component {
                             <a href="#" className="ti-plus icon-yes"/>
                         </h5>
                         <p>
-                            Find all documents/claims for transactions below.
+                            Find all claims for transactions below.
                         </p>
                         <table className="table table-hover" id="sample-table-1">
                             <thead>
                                 <tr>
-                                    <th className="center">Select</th>
                                     <th className="sortable">File Name</th>
-                                    <th className="hidden-xs">Document</th>
-                                    <th className="hidden-xs">Attestation</th>
                                     <th className="hidden-xs">Date Added</th>
                                     <th className="hidden-xs">Date Signed</th>
                                     <th className="hidden-xs">Verified</th>
@@ -100,14 +88,11 @@ export default class Documents extends Component {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td className="center"><input type="checkbox"/></td>
                                     <td>
                                         <a href="#" rel="nofollow noopener noreferrer" target="_blank">
                                             Ship-To Address
                                         </a>
                                     </td>
-                                    <td className="hidden-xs ti-close icon-no"/>
-                                    <td className="hidden-xs ti-check icon-yes"/>
                                     <td className="hidden-xs">March 7, 2016</td>
                                     <td className="hidden-xs">March 19, 2016 </td>
                                     <td className="hidden-xs">Self-Asserted </td>
@@ -118,7 +103,6 @@ export default class Documents extends Component {
                                         </div>
                                     </td>
                                 </tr>
-                                
                             </tbody>
                         </table>
 
