@@ -47,6 +47,36 @@ h2 {
     color: #c96;
 }
 
+/* buttons */
+.btn {
+  transition: all 0.3s ease 0s !important;
+  box-shadow: none !important;
+  outline: none !important;
+  position: relative;
+  /*bootstrap css*/
+  border-radius: 4px;
+  padding: 6px;
+  font-size: 14px;
+  line-height: 1.42;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+}
+.btn-primary.btn-o {
+  border: 1px solid #007AFF;
+  color: #007AFF;
+}
+
+.btn-o {
+  background: none !important;
+}
+.btn-wide {
+  min-width: 80px;
+}
+
 /* navbar */
 .navbar {
   position: absolute;

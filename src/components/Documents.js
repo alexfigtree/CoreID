@@ -6,7 +6,10 @@ export default class Documents extends Component {
     render(){
         return (
             <div>
-              <h2>Documents</h2>
+                <h2>Documents</h2>
+                <button type="submit" className="btn btn-wide btn-o btn-primary">
+                    Sign
+                </button>
                 { this.renderDocuments() }
             </div>
         );
