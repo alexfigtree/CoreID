@@ -7,6 +7,10 @@ For Human Dynamics group blockchain-backed individual identity open source proto
 ## Getting Started 
 `npm install` 
 
+`npm install --save react-router`
+
+`npm install --save react-router-dom`
+
 `npm start`
 
 ## Documentation
