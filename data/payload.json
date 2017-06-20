@@ -1,0 +1,40 @@
+{
+ "entries":[
+ {
+   "payload": {
+     "iss": "https://example.com",
+     "exp": 123456789,
+     "iat": 123456789
+   },
+   "signatures":[]
+
+ },
+ {
+   "payload": {
+     "iss": "https://example.com",
+     "exp": 123456789,
+     "iat": 123456789
+   },
+   "signatures":[]
+
+ },
+ {
+   "payload": {
+     "iss": "https://example.com",
+     "exp": 123456789,
+     "iat": 123456789
+   },
+   "signatures":[]
+
+ },
+ {
+   "payload": {
+     "iss": "https://example.com",
+     "exp": 123456789,
+     "iat": 123456789
+   },
+   "signatures":[]
+
+ }
+ ]
+}

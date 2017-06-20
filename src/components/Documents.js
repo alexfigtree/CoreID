@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import documents from '../../data/documents.json';
+import documents from '../../data/payload.json';
 
 export default class Documents extends Component {
     render(){
@@ -105,14 +105,14 @@ export default class Documents extends Component {
 
     renderDocument (document) {
         return (
-            <h3>{document.title}</h3>
+            <h3>{JSON.stringify(document)}</h3>
         )
     }
 
     renderDocuments () {
         return (
             <div className='documents-container'>
-                { documents.payload.map((document) => this.renderDocument(document)) }
+                { documents.entries.map((document) => this.renderDocument(document)) }
             </div>
         )
     }
