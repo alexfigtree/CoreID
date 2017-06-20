@@ -96,23 +96,8 @@ export default class Sidebar extends Component {
                                 </ul>
                             </li>
 
-                            <li>
-                                <a href="/logout">
-                                    <div className="item-content">
-                                        <div className="item-media">
-                                            <i className="ti-shift-right"></i>
-                                        </div>
-                                        <div className="item-inner">
-                                            <span className="title ng-scope">Logout</span><i className="icon-arrow"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-
                         </ul>
-
                     </nav>
-
                 </div>
             </div>
         );
