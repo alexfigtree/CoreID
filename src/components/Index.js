@@ -5,6 +5,7 @@ import documents from '../../data/payload.json';
 
 console.log(claims, documents);
 
+
 import Sidebar from './Sidebar';
 import Header from'./Header';
 import NavBar from './NavBar';

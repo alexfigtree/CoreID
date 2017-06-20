@@ -4,6 +4,7 @@ import {
     Route,
 } from 'react-router-dom';
 
+
 import Index from './components/Index';
 import Sandbox from './components/Sandbox';
 import Identity from './components/Identity';
@@ -11,11 +12,13 @@ import Documents from './components/Documents';
 import Signatures from './components/Signatures';
 import Claims from './components/Claims';
 
+
 import Sidebar from './components/Sidebar';
 import Header from'./components/Header';
 import NavBar from './components/NavBar';
 
 class App extends Component {
+  let
     render() {
         return (
             <Router>
