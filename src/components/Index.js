@@ -4,7 +4,10 @@ import claims from '../../data/claims.json';
 import documents from '../../data/documents.json';
 console.log(claims, documents);
 
+// import '../Shared/signing';
+
 // import logo from '../logo.svg';
+
 import '../App.css';
 import '../themify-icons/themify-icons.css';
 

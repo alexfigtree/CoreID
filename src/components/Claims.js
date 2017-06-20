@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
 import claims from '../../data/claims.json';
-import documents from '../../data/documents.json';
-console.log(claims, documents);
 
 // import logo from '../logo.svg';
 import '../App.css';
