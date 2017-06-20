@@ -17,10 +17,6 @@ export default class Index extends Component {
     render() {
         return (
             <div>
-                <h1>Core Identity</h1>
-                <h2>Dashboard</h2>
-                <h2>Profile</h2>
-                <h2>Login</h2>
                 <h2>Identity Attributes / Claims</h2>
                 { this.renderClaims() }
                 <h2>Documents</h2>
@@ -33,7 +29,11 @@ export default class Index extends Component {
 
     renderClaim (claim) {
         return (
-            <h3><tt>{JSON.stringify(claim.payload)}</tt></h3>
+            <div>
+                <h3>{claim.payload['fact'] || 'Claim'}</h3>
+
+                <pre>{JSON.stringify(claim.payload, null, '  ')}</pre>
+            </div>
         )
     }
 

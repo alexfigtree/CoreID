@@ -6,6 +6,7 @@
       "validated": false,
       "invalidated": false,
       "payload": {
+        "fact": "Address",
         "time": "2017-05-20T18:49:32.725Z",
         "address": "123 Main St., Cambridge, MA 02139"
       }
@@ -17,6 +18,7 @@
       "invalidated": false,
       "time": "2017-05-20T18:49:32.725Z",
       "payload": {
+        "fact": "Preference",
         "DateTime": "2010-05-20T18:49:32.725Z",
         "ColorPref": "#6699cc"
       }
@@ -27,6 +29,7 @@
       "validated": false,
       "invalidated": false,
       "payload": {
+        "fact": "Address",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Seattle",
@@ -42,6 +45,7 @@
       "validated": false,
       "invalidated": false,
       "payload": {
+        "fact": "Address",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Seattle",
@@ -57,7 +61,7 @@
       "validated": false,
       "invalidated": false,
       "payload": {
-        "fact": "email",
+        "fact": "Email",
         "address": "bsmith@example.com"
       }
     },
@@ -67,8 +71,8 @@
       "validated": false,
       "invalidated": false,
       "payload": {
-        "fact": "name",
-        "value": "Bob Smith"
+        "fact": "Name",
+        "value": "Bob John Smith"
       }
     }
   ]
