@@ -2,10 +2,6 @@
 
 For Human Dynamics group blockchain-backed individual identity open source prototype
 
-
-## Identity Verification Use Case
-
-## Mortgage Application Use Case
-
+See: https://github.com/mitmedialab/CoreID/blob/master/CreditUnionUseCase.md
 
 
