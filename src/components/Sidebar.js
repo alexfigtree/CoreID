@@ -12,7 +12,7 @@ export default class Sidebar extends Component {
                         <ul className="main-navigation-menu">
 
                             <li>
-                                <Link to="/identity">
+                                <Link to="/profile">
                                     <div className="item-content">
                                         <div className="item-media">
                                             <i className="ti-user"></i>

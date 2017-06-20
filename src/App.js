@@ -6,7 +6,7 @@ import {
 
 import Index from './components/Index';
 import Sandbox from './components/Sandbox';
-import Identity from './components/Identity';
+import Profile from './components/Profile';
 import Documents from './components/Documents';
 import Signatures from './components/Signatures';
 import Claims from './components/Claims';
@@ -29,7 +29,7 @@ class App extends Component {
                             <Route exact path='/' component={Index} />
                             <Route path='/sandbox' component={Sandbox} />
                             <Route path='/documents' component={Documents} />
-                            <Route path='/identity' component={Identity} />
+                            <Route path='/profile' component={Profile} />
                             <Route path='/signatures' component={Signatures} />
                             <Route path='/claims' component={Claims} />
                         </div>
