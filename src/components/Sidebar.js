@@ -47,14 +47,14 @@ export default class Sidebar extends Component {
                                             <i className="ti-layers-alt"></i>
                                         </div>
                                         <div className="item-inner">
-                                            <span className="title ng-scope">Documents</span><i className="icon-arrow"></i>
+                                            <span className="title">Documents</span><i className="icon-arrow"></i>
                                         </div>
                                     </div>
                                 </Link>
                             </li>
 
                             <li>
-                                <Link to="/signatures">
+                                <Link to="/claims">
                                     <div className="item-content">
                                         <div className="item-media">
                                             <i className="ti-pencil-alt"></i>
@@ -65,37 +65,6 @@ export default class Sidebar extends Component {
                                     </div>
                                 </Link>
                             </li>
-                            <li className="open active">
-                                <a href="#">
-                                    <div className="item-content">
-                                        <div className="item-media">
-                                            <i className="ti-layout-grid2"></i>
-                                        </div>
-                                        <div className="item-inner">
-                                            <span className="title">Transactions</span><i className="icon-arrow"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                                <ul className="sub-menu">
-                                    <li className="active">
-                                        <a href="#/app/form/elements">
-                                            <span className="title">Create</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#/app/form/xeditable">
-                                            <span className="title">Pending</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#/app/form/editor">
-                                            <span className="title">Completed</span>
-                                        </a>
-                                    </li>
-
-                                </ul>
-                            </li>
-
                         </ul>
                     </nav>
                 </div>
