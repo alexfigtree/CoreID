@@ -8,7 +8,9 @@ export default class Documents extends Component {
             <div className="container-fluid container-fullw bg-white ng-scope">
                 <div className="row">
                     <div className="col-md-12">
-                        <h5 className="over-title margin-bottom-15"><span className="text-bold">Documents/Claims</span></h5>
+                        <h5 className="over-title margin-bottom-15">
+                            <span className="text-bold">Documents/Claims</span>
+                        </h5>
                         <p>
                             Find all documents/claims for transactions below.
                         </p>
@@ -30,7 +32,7 @@ export default class Documents extends Component {
                                 <tr>
                                     <td className="center"><input type="checkbox"/></td>
                                     <td>
-                                        <a href="#" rel="nofollow" target="_blank">
+                                        <a href="#" rel="nofollow noopener noreferrer" target="_blank">
                                             Blanket Authorization Form
                                         </a>
                                     </td>
