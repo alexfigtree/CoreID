@@ -47,6 +47,17 @@ h2 {
     color: #c96;
 }
 
+a {
+  color: #007AFF;
+  background-color: transparent;
+}
+
+a, a:focus, a:hover, a:active {
+  outline: 0 !important;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
 /* buttons */
 .btn {
   transition: all 0.3s ease 0s !important;
@@ -828,4 +839,209 @@ ul.sub-menu li ul.sub-menu li ul.sub-menu li a {
 }
 .navbar-form .form-group {
   display: block;
+}
+
+
+/* ---------------------------------------------------------------------- */
+/*  Tables
+/* ---------------------------------------------------------------------- */
+
+.container-fullw {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+}
+@media (max-width: 768px) {
+  .container-fullw {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/*  Tables
+/* ---------------------------------------------------------------------- */
+.icon-yes {
+  font-weight: 900;
+  color: lawngreen !important;
+  font-size: 16px;
+  padding-left: 20px !important;
+}
+
+.col-md-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+h5.over-title {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+.margin-bottom-15 {
+  margin-bottom: 15px !important;
+}
+
+/*from bootstrap:*/
+.row {
+  margin-right: -15px;
+  margin-left: -15px; 
+  box-sizing: border-box; 
+}
+
+tr {
+  line-height: 2.5rem;
+}
+
+.table {
+  border-collapse: separate;
+  width: 80%;
+}
+
+.table > thead > tr > th {
+  border-top: none;
+}
+
+.table-bordered.table > thead > tr > th {
+  border-bottom: 1px solid #ddd;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+  border-bottom: 1px solid #e2e2e4;
+  color: #5b5b60 !important;
+  border-top: none;
+}
+
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+  background-color: #e7e7e9;
+}
+
+.table > tbody > tr.active > td, .table > tbody > tr.active > th {
+  background-color: #e7e7e9 !important;
+  color: #5b5b60 !important;
+}
+
+.table > tbody > tr.active:hover > td, .table > tbody > tr.active:hover > th {
+  background-color: #dddcdf !important;
+  color: #5b5b60 !important;
+}
+
+th.center, td.center {
+  text-align: center;
+}
+
+td.center .dropdown-menu {
+  text-align: left;
+}
+
+td.small-width {
+  width: 15%;
+}
+
+.table thead tr {
+  color: #707070;
+  font-weight: normal;
+}
+
+.table.table-bordered {
+  border-right: none;
+  border-bottom: none;
+}
+
+.table.table-bordered thead tr th {
+  vertical-align: middle;
+}
+
+.table.table-bordered > thead > tr > th, .table.table-bordered > tbody > tr > th, .table.table-bordered > tfoot > tr > th, .table.table-bordered > thead > tr > td, .table.table-bordered > tbody > tr > td, .table.table-bordered > tfoot > tr > td {
+  border-top: none;
+  border-left: none;
+}
+
+.table.table-bordered > thead > tr > th, .table.table-bordered > tbody > tr > th, .table.table-bordered > tfoot > tr > th, .table.table-bordered > thead > tr > td, .table.table-bordered > tbody > tr > td, .table.table-bordered > tfoot > tr > td {
+  border-top: none;
+  border-left: none;
+}
+
+.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+  vertical-align: middle;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) {
+  background-color: #efeff0;
+}
+
+.editable-element {
+  border-bottom: 1px dashed #0088CC;
+  text-decoration: none;
+  opacity: 0.5;
+  display: inline;
+}
+
+.ng-table th {
+  text-align: left !important;
+}
+
+.ng-table .plus, .ng-table .minus {
+  font-weight: bold;
+  padding-left: 18px;
+  position: relative;
+}
+
+.ng-table .plus:before, .ng-table .minus:before {
+  content: "";
+  border-width: 4px;
+  border-style: solid;
+  left: 8px;
+  top: 50%;
+  position: absolute;
+  margin-top: -2px;
+}
+
+.ng-table .plus {
+  color: green;
+}
+
+.ng-table .plus:before {
+  border-color: green;
+  border-top: none;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+
+.ng-table .minus {
+  color: red;
+}
+
+.ng-table .minus:before {
+  border-color: red;
+  border-bottom: none;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+
+.odd {
+  background: #EFEFF0;
+}
+
+.even {
+  background: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .ng-table-pager {
+    text-align: center;
+  }
+  .ng-table-pager .ng-table-counts {
+    float: none !important;
+  }
+  .ng-table-pager .pagination {
+    display: block;
+  }
+  .ng-table-pager .pagination li {
+    display: inline-block;
+  }
 }
