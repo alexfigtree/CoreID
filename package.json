@@ -2,7 +2,7 @@
   "name": "core-id",
   "version": "0.1.0",
   "private": true,
-  "proxy":"http://localhost:8332/",
+  "proxy": "http://localhost:8332/",
   "dependencies": {
     "@trust/jose": "^0.3.0",
     "@trust/keyto": "^0.3.0",
