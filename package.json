@@ -3,10 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@trust/jose": "^0.3.0",
+    "@trust/keyto": "^0.3.0",
+    "@trust/webcrypto": "^0.2.1",
+    "ethereumjs-testrpc": "^3.0.5",
+    "ethereumjs-tx": "^1.3.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router": "^4.1.1",
-    "react-router-dom": "^4.1.1"
+    "react-router-dom": "^4.1.1",
+    "web3": "^0.15.3"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"

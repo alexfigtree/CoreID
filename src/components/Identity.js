@@ -1,20 +1,30 @@
 import React, { Component } from 'react';
 
+// require('../Shared/signing');
+
 import claims from '../../data/claims.json';
 
 export default class Identity extends Component {
-    render(){
+    render() {
         return (
             <div>
-              <h2>Identity Attributes / Claims</h2>
+                <h2>Identity Attributes / Claims</h2>
                 { this.renderClaims() }
             </div>
         );
     }
 
+    handleClaimClick(e) {
+        console.log(e);
+    }
+
     renderClaim (claim) {
         return (
-            <h3><tt>{JSON.stringify(claim.payload)}</tt></h3>
+            <div>
+                <h3>{claim.payload['fact'] || 'Claim'}</h3>
+
+                <pre>{JSON.stringify(claim.payload, null, '  ')}</pre>
+            </div>
         )
     }
 
