@@ -16,7 +16,7 @@ export default class Sidebar extends Component {
                                             <i className="ti-user"></i>
                                         </div>
                                         <div className="item-inner">
-                                            <span className="title">Identity Attributes</span><i className="icon-arrow"></i>
+                                            <span className="title">Profile</span><i className="icon-arrow"></i>
                                         </div>
                                     </div>
                                 </Link>
@@ -60,47 +60,11 @@ export default class Sidebar extends Component {
                                             <i className="ti-pencil-alt"></i>
                                         </div>
                                         <div className="item-inner">
-                                            <span className="title">Signatures</span><i className="icon-arrow"></i>
+                                            <span className="title">Claims/Attestations</span><i className="icon-arrow"></i>
                                         </div>
                                     </div>
                                 </Link>
                             </li>
-
-                            <li>
-                                <a href='#'>
-                                    <div className="item-content">
-                                        <div className="item-media">
-                                            <i className="ti-layout-grid2"></i>
-                                        </div>
-                                        <div className="item-inner">
-                                            <span className="title ng-scope">Tables</span><i className="icon-arrow"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                                <ul className="sub-menu">
-                                    <li>
-                                        <a href="#/app/table/basic">
-                                            <span className="title">Basic Tables</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#/app/table/responsive">
-                                            <span className="title">Responsive Tables</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#/app/table/dynamic">
-                                            <span className="title">Dynamic Tables</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#/app/table/data">
-                                            <span className="title">ngTable</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-
                             <li className="open active">
                                 <a href="#">
                                     <div className="item-content">
