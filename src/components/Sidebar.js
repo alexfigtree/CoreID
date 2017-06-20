@@ -49,7 +49,7 @@ export default class Sidebar extends Component {
                                             <i className="ti-layers-alt"></i>
                                         </div>
                                         <div className="item-inner">
-                                            <span className="title">Verify Claims/Documents</span><i className="icon-arrow"></i>
+                                            <span className="title">Attestations/Documents</span><i className="icon-arrow"></i>
                                         </div>
                                     </div>
                                 </Link>
@@ -62,7 +62,7 @@ export default class Sidebar extends Component {
                                             <i className="ti-pencil-alt"></i>
                                         </div>
                                         <div className="item-inner">
-                                            <span className="title">Create Claim</span><i className="icon-arrow"></i>
+                                            <span className="title">Create Attestation</span><i className="icon-arrow"></i>
                                         </div>
                                     </div>
                                 </Link>
