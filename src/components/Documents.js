@@ -13,15 +13,12 @@ export default class Documents extends Component {
                 <div className="row">
                     <div className="col-md-12">
                         <h5 className="over-title margin-bottom-15">
-                            <span className="text-bold">Documents/Claims</span>
+                            <span className="text-bold">Documents</span>
                             <a href="#" className="ti-plus icon-yes"/>
                         </h5>
                         <p>
                             Find all documents/claims for transactions below.
                         </p>
-                        <button type="submit" className="btn btn-wide btn-o btn-primary">
-                            Sign
-                        </button>
                         <table className="table table-hover" id="sample-table-1">
                             <thead>
                                 <tr>
@@ -36,25 +33,6 @@ export default class Documents extends Component {
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td className="center"><input type="checkbox"/></td>
-                                    <td>
-                                        <a href="#" rel="nofollow noopener noreferrer" target="_blank">
-                                            Ship-To Address
-                                        </a>
-                                    </td>
-                                    <td className="hidden-xs ti-close icon-no"/>
-                                    <td className="hidden-xs ti-check icon-yes"/>
-                                    <td className="hidden-xs">March 7, 2016</td>
-                                    <td className="hidden-xs">March 19, 2016 </td>
-                                    <td className="hidden-xs">Self-Asserted </td>
-                                    <td className="center">
-                                        <div className="visible-md visible-lg hidden-sm hidden-xs">
-                                            <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Share"><i className="ti-control-forward"></i></a>
-                                            <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Remove"><i className="ti-close"></i></a>
-                                        </div>
-                                    </td>
-                                </tr>
                                 <tr>
                                     <td className="center"><input type="checkbox"/></td>
                                     <td>
@@ -95,11 +73,55 @@ export default class Documents extends Component {
                                 </tr>
                             </tbody>
                         </table>
+
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-12">
+                        <h5 className="over-title margin-bottom-15">
+                            <span className="text-bold">Claims</span>
+                            <a href="#" className="ti-plus icon-yes"/>
+                        </h5>
                         <p>
-                            <button type="submit" className="btn btn-wide btn-o btn-primary">
-                                Sign
-                            </button>
+                            Find all documents/claims for transactions below.
                         </p>
+                        <table className="table table-hover" id="sample-table-1">
+                            <thead>
+                                <tr>
+                                    <th className="center">Select</th>
+                                    <th className="sortable">File Name</th>
+                                    <th className="hidden-xs">Document</th>
+                                    <th className="hidden-xs">Attestation</th>
+                                    <th className="hidden-xs">Date Added</th>
+                                    <th className="hidden-xs">Date Signed</th>
+                                    <th className="hidden-xs">Verified</th>
+                                    <th className="hidden-xs">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td className="center"><input type="checkbox"/></td>
+                                    <td>
+                                        <a href="#" rel="nofollow noopener noreferrer" target="_blank">
+                                            Ship-To Address
+                                        </a>
+                                    </td>
+                                    <td className="hidden-xs ti-close icon-no"/>
+                                    <td className="hidden-xs ti-check icon-yes"/>
+                                    <td className="hidden-xs">March 7, 2016</td>
+                                    <td className="hidden-xs">March 19, 2016 </td>
+                                    <td className="hidden-xs">Self-Asserted </td>
+                                    <td className="center">
+                                        <div className="visible-md visible-lg hidden-sm hidden-xs">
+                                            <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Share"><i className="ti-control-forward"></i></a>
+                                            <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Remove"><i className="ti-close"></i></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+
                     </div>
                 </div>
                 { this.renderDocuments() }
