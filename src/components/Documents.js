@@ -10,6 +10,7 @@ export default class Documents extends Component {
                     <div className="col-md-12">
                         <h5 className="over-title margin-bottom-15">
                             <span className="text-bold">Documents/Claims</span>
+                            <a href="#" className="ti-plus icon-yes"/>
                         </h5>
                         <p>
                             Find all documents/claims for transactions below.
