@@ -4,13 +4,11 @@ import claims from '../../data/claims.json';
 import documents from '../../data/documents.json';
 console.log(claims, documents);
 
-import Sidebar from './Sidebar';
-import Header from'./Header';
-import NavBar from './NavBar';
-
-import logo from '../logo.svg';
+// import logo from '../logo.svg';
 import '../App.css';
 import '../themify-icons/themify-icons.css';
+
+import './Index.css';
 
 export default class Index extends Component {
     render() {

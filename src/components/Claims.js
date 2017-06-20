@@ -4,19 +4,15 @@ import claims from '../../data/claims.json';
 import documents from '../../data/documents.json';
 console.log(claims, documents);
 
-import Sidebar from './Sidebar';
-import Header from'./Header';
-import NavBar from './NavBar';
-
-import logo from '../logo.svg';
+// import logo from '../logo.svg';
 import '../App.css';
 import '../themify-icons/themify-icons.css';
+import './Claims.css';
 
 export default class Claims extends Component {
     render() {
         return (
-
-        	<div className="col-md-12">
+			<div className="col-md-12">
 				<h5 className="over-title">Claims/Attestations</h5>
 				<p className="margin-bottom-30">
 					This is your claims and attestations section.

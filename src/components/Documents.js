@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import documents from '../../data/documents.json';
 
+import './Documents.css';
+
 export default class Documents extends Component {
     render(){
         return (
