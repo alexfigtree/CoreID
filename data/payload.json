@@ -1,6 +1,7 @@
 {
  "entries":[
- {
+ { 
+   "title":"Promissory Note",
    "payload": {
      "iss": "https://example.com",
      "exp": 123456789,
@@ -10,6 +11,7 @@
 
  },
  {
+   "title": "Ship-To Address",
    "payload": {
      "iss": "https://example.com",
      "exp": 123456789,
@@ -19,6 +21,7 @@
 
  },
  {
+   "title": "Home Address",
    "payload": {
      "iss": "https://example.com",
      "exp": 123456789,
@@ -28,6 +31,7 @@
 
  },
  {
+   "title":"",
    "payload": {
      "iss": "https://example.com",
      "exp": 123456789,
