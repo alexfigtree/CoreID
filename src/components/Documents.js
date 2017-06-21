@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom'
+
 import bitcoin from 'bitcoin'
 import crypto from 'crypto'
 
@@ -69,7 +70,10 @@ export default class Documents extends Component {
                     <div className="col-md-12">
                         <h5 className="over-title margin-bottom-15">
                             <span className="text-bold">Claims</span>
-                            <a href="#" className="ti-plus icon-yes"/>
+
+                            <Link className="ti-plus icon-yes" to="/claims">
+
+                            </Link>
                         </h5>
                         <p>
                             Find all claims for transactions below.
