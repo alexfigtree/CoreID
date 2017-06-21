@@ -24,7 +24,6 @@ class App extends Component {
         return (
             <Router>
                 <div id='app' className='App'>
-
                     <Sidebar/>
                     <div className='app-content'>
                         <Header/>
@@ -38,12 +37,9 @@ class App extends Component {
                             <Route path='/profile' component={Profile} />
                             <Route path='/signatures' component={Signatures} />
                             <Route path='/claims' component={Claims} />
-                            <Route path='**' component={Documents} />
                         </div>
                     </div>
-
                 </div>
-
             </Router>
         )
     }

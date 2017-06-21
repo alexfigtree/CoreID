@@ -1,13 +1,21 @@
 import React, { Component } from 'react';
-
-import documents from '../../data/payload.json';
+import { Link } from 'react-router'
 import bitcoin from 'bitcoin'
 import crypto from 'crypto'
+
+import documents from '../../data/documents.json';
+import payloads from '../../data/payload.json';
 
 import './Documents.css';
 
 export default class Documents extends Component {
-    render(){
+  render(){
+    let payload = documents.payload;
+    console.log(payload);
+
+    payload.map((document, i) => console.log(document))
+
+
         return (
             <div className="container-fluid container-fullw bg-white ng-scope">
                 <div className="row">
@@ -30,15 +38,17 @@ export default class Documents extends Component {
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+  {
+    payload.map((document, i) => (
+        <tr key={i}>
                                     <td>
-                                        <a href="#" rel="nofollow" target="_blank">
-                                            Promissory Note
+                                        <a href={`/document/${i}`} rel="nofollow noopener noreferrer">
+        {document.title}
                                         </a>
                                     </td>
-                                    <td className="hidden-xs">April 22, 2017</td>
-                                    <td className="hidden-xs">Unsigned</td>
-                                    <td>No</td>
+        <td className="hidden-xs">{document.date}</td>
+                                    <td>{document.date}</td>
+        <td>{document.verified ? 'Yes' : 'No'}</td>
                                     <td className="center">
                                         <div className="visible-md visible-lg hidden-sm hidden-xs">
                                             <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Share"><i className="ti-control-forward"></i></a>
@@ -46,22 +56,10 @@ export default class Documents extends Component {
                                         </div>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td>
-                                        <a href="#" rel="nofollow noopener noreferrer" target="_blank">
-                                            Home Address
-                                        </a>
-                                    </td>
-                                    <td className="hidden-xs">February 2, 2016</td>
-                                    <td>February 10, 2016</td>
-                                    <td>Yes</td>
-                                    <td className="center">
-                                        <div className="visible-md visible-lg hidden-sm hidden-xs">
-                                            <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Share"><i className="ti-control-forward"></i></a>
-                                            <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Remove"><i className="ti-close"></i></a>
-                                        </div>
-                                    </td>
-                                </tr>
+
+        ))
+      }
+
                             </tbody>
                         </table>
 
@@ -108,10 +106,12 @@ export default class Documents extends Component {
 
                     </div>
                 </div>
+
                 { this.renderDocuments() }
             </div>
         );
     }
+
     signDocument(document){
       console.log(JSON.stringify(document))
       var client = new bitcoin.Client({
@@ -147,7 +147,11 @@ export default class Documents extends Component {
     renderDocuments () {
         return (
             <div className='documents-container'>
-                { documents.entries.map((document) => this.renderDocument(document)) }
+                        <h5 className="over-title margin-bottom-15">
+                            <span className="text-bold">Signing Validation</span>
+                            <a href="#" className="ti-plus icon-yes"/>
+                        </h5>
+                { payloads.entries.map((document) => this.renderDocument(document)) }
             </div>
         )
     }
