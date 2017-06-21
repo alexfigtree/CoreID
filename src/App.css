@@ -94,6 +94,12 @@ a, a:focus, a:hover, a:active {
 }
 
 /* navbar */
+
+.current-user {
+  float: right;
+  padding-right: 20px;
+}
+
 .navbar {
   position: absolute;
   top: 0;

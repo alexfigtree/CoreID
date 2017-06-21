@@ -14,9 +14,12 @@ export default class Header extends Component {
 					<Link className="navbar-brand" to="/">
 						CoreID
 					</Link>
+					<div className="dropdown current-user">
+						<a href="" className="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							<span className="username ng-binding">Alice <i className="ti-angle-down"></i></span>
+						</a>
+					</div>
 				</div>
-				<div className="navbar-collapse"></div>
-
 			</header>
         );
     }
