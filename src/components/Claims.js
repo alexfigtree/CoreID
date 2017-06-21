@@ -50,6 +50,31 @@ export default class Claims extends Component {
                         <div className="col-md-6">
                             <fieldset>
                                 <legend>
+                                    Address
+                                </legend>
+                                <div className="form-group">
+                                    <label>
+                                        Fact <span className="symbol required"></span>
+                                    </label>
+                                    <div className="form-group">
+                                        <input type="email" placeholder="Text Field" name="email" id="email" className="form-control"/>
+                                    </div>
+                                    <label>
+                                        Time <span className="symbol required"></span>
+                                    </label>
+                                    <div className="form-group">
+                                        <input type="email" placeholder="Text Field" name="email" id="email" className="form-control"/>
+                                    </div>
+                                    <label>
+                                        Address <span className="symbol required"></span>
+                                    </label>
+                                    <div className="form-group">
+                                        <input type="email" placeholder="Text Field" name="email" id="email" className="form-control"/>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend>
                                     Your Account
                                 </legend>
                                 <div className="form-group">
@@ -59,23 +84,6 @@ export default class Claims extends Component {
                                     <div className="form-group">
                                         <input type="email" placeholder="Text Field" name="email" id="email" className="form-control"/>
                                     </div>
-                                </div>
-                            </fieldset>
-                            <fieldset>
-                                <legend>
-                                    Choose a password
-                                </legend>
-                                <div className="form-group">
-                                    <label>
-                                        Password
-                                    </label>
-                                    <input type="text" className="form-control" placeholder="Repeat Password"/>
-                                </div>
-                                <div className="form-group">
-                                    <label>
-                                        Repeat Password <span className="symbol required"></span>
-                                    </label>
-                                    <input type="email" placeholder="Text Field" name="email" id="email" className="form-control"/>
                                 </div>
                             </fieldset>
                         </div>
@@ -200,6 +208,7 @@ export default class Claims extends Component {
                             </fieldset>
                         </div>
                     </div>
+                    <button type="submit" className="btn btn-wide btn-o btn-primary">Save</button>
                 </div>
             </div>    
 
