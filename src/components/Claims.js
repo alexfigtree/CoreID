@@ -96,17 +96,17 @@ export default class Claims extends Component {
                                     <div className="col-md-6">
                                         <div className="form-group">
                                             <label>
-                                                First Name
+                                                First Name <span className="symbol required"></span>
                                             </label>
-                                            <input type="text" name="firstName" className="form-control" placeholder="Enter your First Name"/>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className="form-group">
-                                            <label className="control-label">
-                                                Last Name
+                                            <div className="form-group">
+                                                <input type="email" placeholder="Text Field" name="firstname" className="form-control"/>
+                                            </div>
+                                            <label>
+                                                Last Name <span className="symbol required"></span>
                                             </label>
-                                            <input type="text" name="lastName" className="form-control" placeholder="Enter your Last Name"/>
+                                            <div className="form-group">
+                                                <input type="email" placeholder="Text Field" name="lastname" className="form-control"/>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -117,13 +117,13 @@ export default class Claims extends Component {
                                                 Gender
                                             </label>
                                             <div className="clip-radio radio-primary">
-                                                <input type="radio" id="female" name="gender" value="female"/>
-                                                <label for="female">
-                                                    Female
-                                                </label>
-                                                <input type="radio" id="male" name="gender" value="male" checked="checked"/>
+                                                <input type="radio" id="female" name="gender" value="male"/>
                                                 <label for="male">
                                                     Male
+                                                </label>
+                                                <input type="radio" id="male" name="gender" value="female" checked="checked"/>
+                                                <label for="female">
+                                                     <span> Female</span>
                                                 </label>
                                             </div>
                                         </div>
