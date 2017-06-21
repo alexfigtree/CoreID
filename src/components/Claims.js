@@ -10,9 +10,8 @@ export default class Claims extends Component {
     render() {
         return (
             <div>
-                <h2>New Identity Attribute</h2>
                 { this.renderForm() }
-                <h2>Identity Attributes / Claims</h2>
+                <h2>Create Attestation</h2>
                 { this.renderClaims() }
             </div>
         );
@@ -43,7 +42,7 @@ export default class Claims extends Component {
         return (
             <div className="container-fluid container-fullw bg-white ng-scope">
                 <div className="col-md-12">
-                    <h5 className="over-title">Claims/Attestations</h5>
+                    <h5 className="over-title">Create Attestation</h5>
                     <p className="margin-bottom-30">
                         This is your claims and attestations section.
                     </p>
