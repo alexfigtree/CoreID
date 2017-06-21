@@ -200,7 +200,7 @@ export default class Claims extends Component {
                                             <label className="checkbox-inline clip-check">
                                                 <input type="checkbox" name="newsletter"/>
                                                 <i></i>
-                                                I read and accept the terms and conditions
+                                                <a href="#">Verify FICO score</a>
                                             </label>
                                         </div>
                                     </div>
