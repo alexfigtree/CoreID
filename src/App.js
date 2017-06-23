@@ -18,6 +18,16 @@ import Sidebar from './components/Sidebar';
 import Header from'./components/Header';
 import NavBar from './components/NavBar';
 
+
+// fetch('/bitcoind', {
+//   method: 'GET',
+//   headers: {
+//     'Accept': 'application/json',
+//     'Content-Type': 'application/json'
+//   },
+//   body: JSON.stringify({"jsonrpc": "1.0", "id":"curltest", "method": "getinfo", "params": []})
+// })
+
 class App extends Component {
   let
     render() {

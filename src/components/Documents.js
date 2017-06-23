@@ -43,9 +43,9 @@ export default class Documents extends Component {
     payload.map((document, i) => (
         <tr key={i}>
                                     <td>
-                                        <a href={`/document/${i}`} rel="nofollow noopener noreferrer">
+                                        <Link to={`/document/${i}`} rel="nofollow noopener noreferrer">
         {document.title}
-                                        </a>
+                                        </Link>
                                     </td>
         <td className="hidden-xs">{document.date}</td>
                                     <td>{document.date}</td>
