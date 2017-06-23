@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 import documents from '../../data/payload.json';
 import bitcoin from 'bitcoin'
 import crypto from 'crypto'
+import keyto from "@trust/keyto"
 
-import './Documents.css';
 
 export default class Documents extends Component {
     render(){
@@ -110,7 +110,7 @@ export default class Documents extends Component {
       console.log(JSON.stringify(document))
       var client = new bitcoin.Client({
         host: 'localhost',
-        port: 8332,
+        port: '80',
         user: 'fred',
         pass: 'fred'
       })
@@ -132,6 +132,7 @@ export default class Documents extends Component {
     }
 
     renderDocument (document) {
+
         return (
             <h3> <button type="submit" className="btn btn-wide btn-o btn-primary" onClick={this.signDocument.bind(this,document)}>Sign</button> <a href={document.title}>{JSON.stringify(document)} </a></h3>
 
