@@ -1,0 +1,38 @@
+{
+  "payload": {
+    "type": [
+      "1005 ProofOfEmployment"
+    ],
+    "issuer": "https://www.adp.com",
+    "issued": "2017-06-21T11:34:30.951Z",
+    "attr": {
+      "payload": {
+        "sub": "john.smith@acme.com",
+        "employer": {
+          "name": "ACME Company, Inc.",
+          "address": "123 Main Street, Inc."
+        },
+        "employee": "john@acme.com",
+        "hired": "2017-06-21T11:34:30.946Z",
+        "terminated": "2017-06-21T11:34:30.946Z",
+        "issued": "2017-06-21T11:34:30.946Z"
+      },
+      "signatures": [
+        {
+          "protected": {
+            "alg": "KS256"
+          },
+          "signature": "MEQCIAci3ySC4X2JMBcgFnUv9VIGMO7UVHPJ_NWuoOTg88imAiBS779V_reT1bvGKa6-sAIZTEJwknSyfUtmXfnkjxr3mg"
+        }
+      ]
+    }
+  },
+  "signatures": [
+    {
+      "protected": {
+        "alg": "KS256"
+      },
+      "signature": "MEUCIQC36AUvBSp0TGjfR_4NFAi-fFSurX6VBG_VtBsIhtIjNwIgW_qFjgUxg4lqlLzHW2vZH1Af07V9l2lFpVBkNlE88vo"
+    }
+  ]
+}
