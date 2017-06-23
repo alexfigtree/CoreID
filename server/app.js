@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
+var cors = require('cors')
 
 var allowCrossDomain = function(req, res, next) {
     if ('OPTIONS' == req.method) {
@@ -17,8 +18,12 @@ var allowCrossDomain = function(req, res, next) {
 app.use(allowCrossDomain);
 app.use(express.static(path.join(__dirname,'..', 'build')));
 
-app.get('/', function (req, res) {
+app.get('/', cors(), function (req, res) {
   res.json({msg: 'This is CORS-enabled for all origins!'})
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
+app.post('/', cors(), function(req, res, next){
+  res.json({msg: "this is cors enabled?"})
+  res.sendFile(path.join(__dirname, 'build', 'index.html'))
+})
 module.exports = app;
