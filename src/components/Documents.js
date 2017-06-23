@@ -120,10 +120,11 @@ export default class Documents extends Component {
     }
 
     signDocument(document){
+      console.log(document)
       console.log(JSON.stringify(document))
       var client = new bitcoin.Client({
         host: 'localhost',
-        port: '80',
+        port: '8332',
         user: 'fred',
         pass: 'fred'
       })
@@ -147,7 +148,7 @@ export default class Documents extends Component {
     renderDocument (document) {
 
         return (
-            <h3> <button type="submit" className="btn btn-wide btn-o btn-primary" onClick={this.signDocument.bind(this.document)}>Sign</button> <a href={document.title}>{JSON.stringify(document)} </a></h3>
+            <h3> <button type="submit" className="btn btn-wide btn-o btn-primary" onClick={this.signDocument.bind(this,document)}>Sign</button> <a href={document.title}>{JSON.stringify(document)} </a></h3>
 
         )
     }
