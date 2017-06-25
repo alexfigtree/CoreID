@@ -37,6 +37,7 @@ export default class Documents extends Component {
                                     <th className="sortable">File Name</th>
                                     <th className="hidden-xs">Date Added</th>
                                     <th className="hidden-xs">Date Signed</th>
+                                    <th className="hidden-xs">Signed</th>
                                     <th className="hidden-xs">Verified</th>
                                     <th className="hidden-xs">Actions</th>
                                 </tr>
@@ -52,6 +53,7 @@ export default class Documents extends Component {
                                     </td>
         <td className="hidden-xs">{document.date}</td>
                                     <td>{document.date}</td>
+                                    <td>{document.signed ? 'Yes' : 'No'}</td>
         <td>{document.verified ? 'Yes' : 'No'}</td>
                                     <td className="center">
                                         <div className="visible-md visible-lg hidden-sm hidden-xs">
@@ -87,6 +89,7 @@ export default class Documents extends Component {
                                     <th className="sortable">File Name</th>
                                     <th className="hidden-xs">Date Added</th>
                                     <th className="hidden-xs">Date Signed</th>
+                                    <th className="hidden-xs">Signed</th>
                                     <th className="hidden-xs">Verified</th>
                                     <th className="hidden-xs">Actions</th>
                                 </tr>
@@ -101,6 +104,7 @@ export default class Documents extends Component {
                                     <td className="hidden-xs">March 7, 2016</td>
                                     <td className="hidden-xs">March 19, 2016 </td>
                                     <td className="hidden-xs">Self-Asserted </td>
+                                    <td className="hidden-xs">No</td>
                                     <td className="center">
                                         <div className="visible-md visible-lg hidden-sm hidden-xs">
                                             <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Share"><i className="ti-control-forward"></i></a>
