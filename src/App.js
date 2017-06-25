@@ -48,7 +48,7 @@ class App extends Component {
                             <Route path='/profile' component={Profile} />
                             <Route path='/signatures' component={Signatures} />
                             <Route path='/claims' component={Claims} />
-                            <Route path='/claims/create' component={ClaimsCreate} />
+                            <Route path='/claim-create' component={ClaimsCreate} />
                         </div>
                     </div>
                 </div>
