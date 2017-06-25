@@ -69,58 +69,6 @@ export default class Documents extends Component {
 
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-md-12">
-                        <h5 className="over-title margin-bottom-15">
-                            <span className="text-bold">Claims</span>
-
-                            <Link className="ti-plus icon-yes" to="/claims">
-
-                            </Link>
-                        </h5>
-                        <p>
-                            Find all claims for transactions below.
-                        </p>
-                        <table className="table table-hover" id="sample-table-1">
-                            <thead>
-                                <tr>
-                                    <th className="sortable">File Name</th>
-                                    <th className="hidden-xs">Date Added</th>
-                                    <th className="hidden-xs">Date Signed</th>
-                                    <th className="hidden-xs">Signed</th>
-                                    <th className="hidden-xs">Verified</th>
-                                    <th className="hidden-xs">Actions</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-  {
-    payload.map((claim, i) => (
-        <tr key={i}>
-                                    <td>
-                                        <Link to={`/claim/${i}`} rel="nofollow noopener noreferrer">
-        {claim.title}
-                                        </Link>
-                                    </td>
-        <td className="hidden-xs">{claim.date}</td>
-                                    <td>{claim.deadline}</td>
-                                    <td>{claim.signed ? 'Yes' : 'No'}</td>
-                                    <td>{claim.verified ? 'Yes' : 'No'}</td>
-                                    <td className="center">
-                                        <div className="visible-md visible-lg hidden-sm hidden-xs">
-                                            <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Share"><i className="ti-control-forward"></i></a>
-                                            <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Remove"><i className="ti-close"></i></a>
-                                        </div>
-                                    </td>
-                                </tr>
-
-        ))
-      }
-
-                            </tbody>
-                        </table>
-
-                    </div>
-                </div>
 
                 { this.renderDocuments() }
             </div>
