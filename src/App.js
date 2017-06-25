@@ -10,9 +10,10 @@ import Profile from './components/Profile';
 import Documents from './components/Documents';
 import Signatures from './components/Signatures';
 import Document from './components/Document';
-import Claim from './components/Claim';
 
+import Claim from './components/Claim';
 import Claims from './components/Claims';
+import ClaimsCreate from './components/ClaimsCreate'
 
 import Sidebar from './components/Sidebar';
 import Header from'./components/Header';
@@ -47,6 +48,7 @@ class App extends Component {
                             <Route path='/profile' component={Profile} />
                             <Route path='/signatures' component={Signatures} />
                             <Route path='/claims' component={Claims} />
+                            <Route path='/claims/create' component={ClaimsCreate} />
                         </div>
                     </div>
                 </div>
