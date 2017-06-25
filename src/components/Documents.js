@@ -5,7 +5,7 @@ import bitcoin from 'bitcoin'
 import crypto from 'crypto'
 import keyto from "@trust/keyto"
 
-
+import claims from '../../data/claims.json';
 import documents from '../../data/documents.json';
 import payloads from '../../data/payload.json';
 
@@ -18,7 +18,7 @@ export default class Documents extends Component {
     console.log(payload);
 
     payload.map((document, i) => console.log(document))
-
+    payload.map((claim, i) => console.log(claim))
 
         return (
             <div className="container-fluid container-fullw bg-white ng-scope">
@@ -93,16 +93,18 @@ export default class Documents extends Component {
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+  {
+    payload.map((claim, i) => (
+        <tr key={i}>
                                     <td>
-                                        <a href="#" rel="nofollow noopener noreferrer" target="_blank">
-                                            Ship-To Address
-                                        </a>
+                                        <Link to={`/claim/${i}`} rel="nofollow noopener noreferrer">
+        {claim.title}
+                                        </Link>
                                     </td>
-                                    <td className="hidden-xs">March 7, 2016</td>
-                                    <td className="hidden-xs">March 19, 2016 </td>
-                                    <td className="hidden-xs">Self-Asserted </td>
-                                    <td className="hidden-xs">No</td>
+        <td className="hidden-xs">{claim.date}</td>
+                                    <td>{claim.deadline}</td>
+                                    <td>{claim.signed ? 'Yes' : 'No'}</td>
+                                    <td>{claim.verified ? 'Yes' : 'No'}</td>
                                     <td className="center">
                                         <div className="visible-md visible-lg hidden-sm hidden-xs">
                                             <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Share"><i className="ti-control-forward"></i></a>
@@ -110,6 +112,10 @@ export default class Documents extends Component {
                                         </div>
                                     </td>
                                 </tr>
+
+        ))
+      }
+
                             </tbody>
                         </table>
 

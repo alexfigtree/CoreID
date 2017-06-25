@@ -54,9 +54,21 @@ export default class Sidebar extends Component {
                                     </div>
                                 </Link>
                             </li>
-
                             <li>
                                 <Link to="/claims">
+                                    <div className="item-content">
+                                        <div className="item-media">
+                                            <i className="ti-layers-alt"></i>
+                                        </div>
+                                        <div className="item-inner">
+                                            <span className="title">Claims</span><i className="icon-arrow"></i>
+                                        </div>
+                                    </div>
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link to="/claim/:id">
                                     <div className="item-content">
                                         <div className="item-media">
                                             <i className="ti-pencil-alt"></i>

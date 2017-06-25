@@ -46,6 +46,7 @@
       "invalidated": false,
       "payload": {
         "fact": "Address",
+        "time": "2017-05-20",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Seattle",
@@ -62,6 +63,7 @@
       "invalidated": false,
       "payload": {
         "fact": "Email",
+        "time": "2017-02-20",
         "address": "bsmith@example.com"
       }
     },
@@ -72,6 +74,7 @@
       "invalidated": false,
       "payload": {
         "fact": "Name",
+        "time": "2017-05-27",
         "value": "Bob John Smith"
       }
     }
