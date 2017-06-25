@@ -46,6 +46,8 @@
       "type": "CLOSINGPACKAGE",
       "lender": "DCU",
       "title": "Closing Package 01-01-2016 - Compliance Agreement",
+      "date": "01-01-2016",
+      "deadline": "04-01-2017",
       "signed": false,
       "rejected": true,
       "content": "The undersigned borrower(s) for and in consideration of the above referenced Lender this date agrees, if requested by Lender or Closing Agent for Lender, to fully cooperate and adjust for clerical errors, any or all loan closing documentation if deemed necessary or desirable in the reasonable discretion of Lender to enable Lender to sell, convey, seek guaranty or market said loan to any entity, including but not limited to an investor, Federal National Mortgage Association, Federal Home Loan Mortgage Corporation, Federal Housing Authority or the Department of Veterans Affairs. The undersigned borrower(s) do hereby so agree and covenant in order to assure that the loan documentation executed this date will conform and be acceptable in the market place in the instance of transfer, sale or conveyance by Lender or its interest in and to said loan documentation."
@@ -53,6 +55,8 @@
     {
       "link": "/contract/1",
       "title": "Initial Disclosure 03-01-2017",
+      "date": "03-01-2017",
+      "deadline": "06-01-2017",
       "signed": true,
       "rejected": false,
       "content": "Etiam bibendum laoreet pretium. Phasellus ac augue quis mauris ultrices pellentesque at id ante. Morbi rutrum nisl a mi ultricies, et porta dui imperdiet. Integer elementum, nibh at tincidunt consectetur, turpis tellus lobortis arcu, vel molestie orci lectus non tortor. In purus neque, tempor sed arcu vitae, pretium rutrum metus. Integer lacus ex, posuere id sem eu, tincidunt elementum sapien. Nunc quis rutrum nulla. Nullam sit amet est vel turpis aliquam accumsan. Donec molestie sapien vehicula cursus sollicitudin. Praesent lorem magna, sagittis id diam a, vestibulum semper mauris."
@@ -60,6 +64,7 @@
     {
       "link": "/contract/4",
       "title": "Contract 4",
+      "date": "03-01-2017",
       "signed": true,
       "rejected": false,
       "content": "Fusce pulvinar, enim vel mollis placerat, nibh mauris sollicitudin nunc, ut finibus odio augue quis lectus. Ut leo ex, vestibulum a nisi vitae, vehicula volutpat tellus. Pellentesque commodo leo ut massa consequat, vel tempor enim congue. Duis venenatis venenatis enim at tincidunt. Sed dignissim faucibus ultricies. Sed vestibulum ipsum ut volutpat aliquet. Quisque eu placerat nibh. Nullam diam neque, commodo eu congue molestie, fringilla a diam. Etiam iaculis egestas lobortis. Donec sed eros vitae justo vulputate malesuada ac sed neque."
@@ -67,6 +72,8 @@
     {
       "link": "/disclosure/1",
       "title": "Disclosure 1",
+      "date": "01-01-2016",
+      "deadline": "04-01-2017",
       "signed": true,
       "rejected": true,
       "content": "Fusce pulvinar, enim vel mollis placerat, nibh mauris sollicitudin nunc, ut finibus odio augue quis lectus. Ut leo ex, vestibulum a nisi vitae, vehicula volutpat tellus. Pellentesque commodo leo ut massa consequat, vel tempor enim congue. Duis venenatis venenatis enim at tincidunt. Sed dignissim faucibus ultricies. Sed vestibulum ipsum ut volutpat aliquet. Quisque eu placerat nibh. Nullam diam neque, commodo eu congue molestie, fringilla a diam. Etiam iaculis egestas lobortis. Donec sed eros vitae justo vulputate malesuada ac sed neque."
