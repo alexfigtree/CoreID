@@ -23,6 +23,8 @@ export default class Claims extends Component {
                     <div className="col-md-12">
                         <h5 className="over-title margin-bottom-15">
                             <span className="text-bold">Claims</span>
+                            <Link title="Create a New Claim" className="ti-plus icon-yes" to={`/claim-create`} rel="nofollow noopener noreferrer">
+                            </Link>
                         </h5>
                         <p>
                             Find all claims for transactions below.
