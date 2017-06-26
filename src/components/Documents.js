@@ -37,7 +37,7 @@ export default class Documents extends Component {
                                     <th className="sortable">File Name</th>
                                     <th className="hidden-xs">Date Added</th>
                                     <th className="hidden-xs">Date Signed</th>
-                                    <th className="hidden-xs">Signed</th>
+                                    <th className="hidden-xs">Signed By</th>
                                     <th className="hidden-xs">Actions</th>
                                 </tr>
                             </thead>
@@ -50,11 +50,12 @@ export default class Documents extends Component {
         {document.title}
                                         </Link>
                                     </td>
-        <td className="hidden-xs">{document.date}</td>
-                                    <td>{document.deadline}</td>
-                                    <td>{document.signed ? 'Yes' : 'No'}</td>
+        <td className="hidden-xs">{document.dateAdded}</td>
+                                    <td>{document.signedDate}</td>
+                                    <td>{document.signedBy}</td>
                                     <td className="center">
                                         <div className="visible-md visible-lg hidden-sm hidden-xs">
+                                            <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Info"><i className="ti-info-alt"></i></a>
                                             <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Share"><i className="ti-control-forward"></i></a>
                                             <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Remove"><i className="ti-close"></i></a>
                                         </div>
