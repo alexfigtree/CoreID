@@ -72,8 +72,6 @@ export default class Documents extends Component {
 
                     </div>
                 </div>
-
-                { this.renderDocuments() }
             </div>
         );
     }
