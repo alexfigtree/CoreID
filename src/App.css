@@ -48,7 +48,7 @@ h2 {
 }
 
 a {
-  color: #007AFF;
+  color: #006f51;
   background-color: transparent;
 }
 
@@ -56,6 +56,10 @@ a, a:focus, a:hover, a:active {
   outline: 0 !important;
   text-decoration: none !important;
   cursor: pointer;
+}
+
+a:hover {
+  color: #66A893;
 }
 
 .main-content {
@@ -82,8 +86,12 @@ a, a:focus, a:hover, a:active {
   user-select: none;
 }
 .btn-primary.btn-o {
-  border: 1px solid #007AFF;
-  color: #007AFF;
+  border: 1px solid #006f51;
+  color: #006f51;
+}
+.btn-primary.btn-o:hover {
+  border: 1px solid #66A893;
+  color: #66A893;
 }
 
 .btn-o {
@@ -127,7 +135,7 @@ a, a:focus, a:hover, a:active {
   font-size: 30px;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  color: #5b5b60;
+  color: #006f51;
   text-decoration: none;
   -webkit-font-smoothing: antialiased !important;
 }
