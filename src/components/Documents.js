@@ -57,7 +57,9 @@ export default class Documents extends Component {
                                     <td>N/A</td>
                                     <td className="center">
                                         <div className="visible-md visible-lg hidden-sm hidden-xs">
-                                            <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Info"><i className="ti-info-alt"></i></a>
+                                            <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Info">
+                                                <i className="ti-info-alt" title={document.content}></i>
+                                            </a>
                                             <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Share"><i className="ti-control-forward"></i></a>
                                             <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Remove"><i className="ti-close"></i></a>
                                         </div>
