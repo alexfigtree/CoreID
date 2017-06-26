@@ -474,7 +474,7 @@ a:hover {
   font-size: 12px;
 }
 #sidebar > div nav > ul li a .icon-arrow:before {
-  content: "\e64a";
+  content: "\e649";
   font-family: themify;
 }
 #sidebar > div nav > ul li.open {
