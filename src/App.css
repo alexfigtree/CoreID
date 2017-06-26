@@ -464,6 +464,7 @@ a:hover {
   font-size: 17px;
   position: relative;
   top: 2px;
+  color: #006f51;
 }
 #sidebar > div nav > ul li a .icon-arrow {
   float: right;
