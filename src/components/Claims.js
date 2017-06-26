@@ -35,8 +35,8 @@ export default class Claims extends Component {
                                     <th className="sortable">Claim/Attestation</th>
                                     <th className="hidden-xs">Date Added</th>
                                     <th className="hidden-xs">Date Signed</th>
-                                    <th className="hidden-xs">Signed</th>
-                                    <th className="hidden-xs">Verified</th>
+                                    <th className="hidden-xs">Signed By</th>
+                                    <th className="hidden-xs">Verified By</th>
                                     <th className="hidden-xs">Actions</th>
                                 </tr>
                             </thead>
@@ -49,10 +49,10 @@ export default class Claims extends Component {
         {claim.payload.fact}
                                         </Link>
                                     </td>
-        <td className="hidden-xs">{claim.payload.time}</td>
-                                    <td>{claim.deadline}</td>
-                                    <td>{claim.signed ? 'Yes' : 'No'}</td>
-                                    <td>{claim.validated ? 'Yes' : 'No'}</td>
+        <td className="hidden-xs">{claim.payload.DateTime}</td>
+                                    <td>{claim.signedDate}</td>
+                                    <td>{claim.signedBy}</td>
+                                    <td>{claim.verifiedBy}</td>
                                     <td className="center">
                                         <div className="visible-md visible-lg hidden-sm hidden-xs">
                                             <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Share"><i className="ti-control-forward"></i></a>
