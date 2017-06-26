@@ -38,6 +38,7 @@ export default class Documents extends Component {
                                     <th className="hidden-xs">Date Added</th>
                                     <th className="hidden-xs">Date Signed</th>
                                     <th className="hidden-xs">Signed By</th>
+                                    <th className="hidden-xs">Status</th>
                                     <th className="hidden-xs">Actions</th>
                                 </tr>
                             </thead>
@@ -53,6 +54,7 @@ export default class Documents extends Component {
         <td className="hidden-xs">{document.dateAdded}</td>
                                     <td>{document.signedDate}</td>
                                     <td>{document.signedBy}</td>
+                                    <td>N/A</td>
                                     <td className="center">
                                         <div className="visible-md visible-lg hidden-sm hidden-xs">
                                             <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Info"><i className="ti-info-alt"></i></a>

@@ -37,6 +37,7 @@ export default class Claims extends Component {
                                     <th className="hidden-xs">Date Signed</th>
                                     <th className="hidden-xs">Signed By</th>
                                     <th className="hidden-xs">Verified By</th>
+                                    <th className="hidden-xs">Status</th>
                                     <th className="hidden-xs">Actions</th>
                                 </tr>
                             </thead>
@@ -53,6 +54,7 @@ export default class Claims extends Component {
                                     <td>{claim.signedDate}</td>
                                     <td>{claim.signedBy}</td>
                                     <td>{claim.verifiedBy}</td>
+                                    <td>N/A</td>
                                     <td className="center">
                                         <div className="visible-md visible-lg hidden-sm hidden-xs">
                                             <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Share"><i className="ti-control-forward"></i></a>
