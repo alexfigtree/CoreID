@@ -5,7 +5,7 @@ For Human Dynamics group blockchain-backed individual identity open source proto
 * First Shared Diagram: https://www.draw.io/#Halexfigtree%2FCoreID%2Fmaster%2FInitialDiagram.xml
 
 ## Getting Started 
- In this project we utilize the bitcoin core libraries for signing documents and claims as well as validating the signatures, so we first need to download the bitcoin core binaries, and run the ./bitcoind with the correct configurations in the .bitcoin/bitcoin.conf file
+ In this project we utilize the bitcoin core libraries for signing documents and claims and for validating the signatures, so we first need to download the bitcoin core binaries, and run the ./bitcoind with the correct configurations in the .bitcoin/bitcoin.conf file
  
  Next we need nginx to get around CORS access involved with running a browser application that needs to communicate with the bitcoind server. 
  
@@ -18,6 +18,7 @@ For Human Dynamics group blockchain-backed individual identity open source proto
 
 `npm start`
 
+But this will open the app on your browswer on port 3000, but change the port to 8080 since we have proxied all of our requests through that. 
 ## Documentation
 
 
