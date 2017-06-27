@@ -2299,5 +2299,17 @@ input[type="radio"], input[type="checkbox"] {
 
 
 .indiv-doc {
+  width: 50%;
+}
+
+.column-left {
+
+}
+.column-right {
+  float: right;
+}
+.doc-viewer {
+  border: 1px solid black;
+  height: 500px;
   width: 40%;
 }
