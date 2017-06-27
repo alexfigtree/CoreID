@@ -5,11 +5,16 @@ For Human Dynamics group blockchain-backed individual identity open source proto
 * First Shared Diagram: https://www.draw.io/#Halexfigtree%2FCoreID%2Fmaster%2FInitialDiagram.xml
 
 ## Getting Started 
+ In this project we utilize the bitcoin core libraries for signing documents and claims as well as validating the signatures, so we first need to download the bitcoin core binaries, and run the ./bitcoind with the correct configurations in the .bitcoin/bitcoin.conf file
+ 
+ Next we need nginx to get around CORS access involved with running a browser application that needs to communicate with the bitcoind server. 
+ 
+ Find the nginx.conf file on linux it should be in /etc/nginx/nginx.conf, and copy over the nginx.conf file that is in this repo.
+ 
+ Now we are ready to run the app.
+ 
+ 
 `npm install` 
-
-`npm install --save react-router`
-
-`npm install --save react-router-dom`
 
 `npm start`
 
