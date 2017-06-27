@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom'
 import bitcoin from 'bitcoin'
 import crypto from 'crypto'
 import keyto from "@trust/keyto"
+import fs from 'fs'
 
-
+import consolelog from "../../server/server.js"
 import documents from '../../data/documents.json';
 import payloads from '../../data/payload.json';
 
@@ -120,11 +121,13 @@ export default class Documents extends Component {
     }
 
     signDocument(document){
+      // console.log(consolelog.sayHelloinEnglish())
+      // console.log(consolelog.sign(document))
       console.log(document)
       console.log(JSON.stringify(document))
       var client = new bitcoin.Client({
         host: 'localhost',
-        port: '8332',
+        port: '8080/bitcoind',
         user: 'fred',
         pass: 'fred'
       })

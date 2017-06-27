@@ -1,9 +1,25 @@
-'use strict';
+var express = require('express');
+var http = require('http');
+var path = require('path');
 
-const app = require('./app');
+var app = express();
 
-const PORT = process.env.PORT || 9000;
+app.use(express.static(path.join(__dirname, '../build')));
 
-app.listen(PORT, () => {
-  console.log(`App listening on port ${PORT}!`);
+/**
+* Get port from environment and store in Express.
+*/
+app.set('port', process.env.PORT || '3001');
+
+require('./app')(app);
+
+var server = http.createServer(app);
+
+/**
+* Listen on provided port, on all network interfaces.
+*/
+server.listen(app.get('port'), function () {
+  console.log('Express server listening on port ' + app.get('port'));
 });
+require('./server.js')(server);
+// require('../src/App.js')(server);
