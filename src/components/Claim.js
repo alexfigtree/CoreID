@@ -10,11 +10,13 @@ export default class Claim extends Component {
 		return (
 			<div>
 	            <h2>Claim: {claim.payload.fact} </h2>
-	            <blockquote>{claim.content}</blockquote>
-	            <h3> <button type="submit" className="btn btn-wide btn-o btn-primary" onClick={() => { alert(claimId) }}>Sign</button></h3>
-	            <pre>
-	            {JSON.stringify(claim, null, '  ')}
-	            </pre>
+	            <h4> Signed: {claim.verified ? 'Yes' : 'No'} </h4>
+                <h4> Signed Date: {claim.signedDate} </h4>
+                <h4> Signed By: {claim.signedBy} </h4>
+                <h4> Validated: {claim.validated ? 'Yes' : 'No'} </h4>
+                <h4> Verified By: {claim.verifiedBy} </h4>
+                <h4> Rejected: {claim.rejected ? 'Yes' : 'No'} </h4>
+	            <h3> <button type="submit" className="btn btn-wide btn-o btn-primary" onClick={() => { alert(claimId) }}>Sign / Send</button></h3>
           	</div>
 		)
     }
