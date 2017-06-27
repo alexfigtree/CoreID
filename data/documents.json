@@ -34,33 +34,6 @@
       "content": "Promissory Note  __________________   ___________________________      _______________    City  \t\t\t                 State  \t\t\t\t   Date                                (Borrower)          agrees and promises to pay to                        (Lender)       the sum of  ($                     )   Dollars for value received, with interest at the annual rate of                % payable after          (Date)           . If this note is in default and is placed for collection,       (Borrower)            shall pay all reasonable costs of collection and attorneys fees.   ____________________________ By_________________________________ (Borrower)                          (Date) ____________________________  By_________________________________ (Lender)                              (Date) _________________________________ (Witness)                             (Date) "
     },
     {
-      "link": "/contract/2",
-      "type": "CLOSINGPACKAGE",
-      "title": "Closing Package 01-01-2017 - Confirmation of Deposits, Emp...",
-      "dateAdded": "2010-05-20T18:49:32.725Z",
-      "lender": "DCU",
-      "signed": false,
-      "signedBy": "N/A",
-      "signedDate": "N/A",
-      "deadline": "04-01-2017",
-      "amount": "$2000 USD",
-      "rejected": false,
-      "content": "The factual attestation provided by Wells Fargo Bank is accurate and complete. Employment verification is correct. Credit information is correct.  "
-    },
-    {
-      "link": "/contract/0",
-      "type": "CLOSINGPACKAGE",
-      "title": "Closing Package 01-01-2016 - Compliance Agreement",
-      "dateAdded": "2016-04-20T18:49:32.725Z",
-      "lender": "DCU",
-      "signed": true,
-      "signedBy": "DCU",
-      "signedDate": "01-01-2016",
-      "deadline": "04-01-2017",
-      "rejected": true,
-      "content": "The undersigned borrower(s) for and in consideration of the above referenced Lender this date agrees, if requested by Lender or Closing Agent for Lender, to fully cooperate and adjust for clerical errors, any or all loan closing documentation if deemed necessary or desirable in the reasonable discretion of Lender to enable Lender to sell, convey, seek guaranty or market said loan to any entity, including but not limited to an investor, Federal National Mortgage Association, Federal Home Loan Mortgage Corporation, Federal Housing Authority or the Department of Veterans Affairs. The undersigned borrower(s) do hereby so agree and covenant in order to assure that the loan documentation executed this date will conform and be acceptable in the market place in the instance of transfer, sale or conveyance by Lender or its interest in and to said loan documentation."
-    },
-    {
       "link": "/contract/1",
       "type": "CONTRACT",
       "title": "Initial Disclosure 03-01-2017",
@@ -83,19 +56,6 @@
       "signedBy": "User",
       "signedDate": "03-01-2017",
       "rejected": false,
-      "content": "Fusce pulvinar, enim vel mollis placerat, nibh mauris sollicitudin nunc, ut finibus odio augue quis lectus. Ut leo ex, vestibulum a nisi vitae, vehicula volutpat tellus. Pellentesque commodo leo ut massa consequat, vel tempor enim congue. Duis venenatis venenatis enim at tincidunt. Sed dignissim faucibus ultricies. Sed vestibulum ipsum ut volutpat aliquet. Quisque eu placerat nibh. Nullam diam neque, commodo eu congue molestie, fringilla a diam. Etiam iaculis egestas lobortis. Donec sed eros vitae justo vulputate malesuada ac sed neque."
-    },
-    {
-      "link": "/disclosure/1",
-      "type": "DISCLOSURE",
-      "title": "Disclosure 1",
-      "dateAdded": "2010-05-20T18:49:32.725Z",
-      "lender": "N/A",
-      "signed": true,
-      "signedBy": "User",
-      "signedDate": "01-01-2016",
-      "deadline": "04-01-2017",
-      "rejected": true,
       "content": "Fusce pulvinar, enim vel mollis placerat, nibh mauris sollicitudin nunc, ut finibus odio augue quis lectus. Ut leo ex, vestibulum a nisi vitae, vehicula volutpat tellus. Pellentesque commodo leo ut massa consequat, vel tempor enim congue. Duis venenatis venenatis enim at tincidunt. Sed dignissim faucibus ultricies. Sed vestibulum ipsum ut volutpat aliquet. Quisque eu placerat nibh. Nullam diam neque, commodo eu congue molestie, fringilla a diam. Etiam iaculis egestas lobortis. Donec sed eros vitae justo vulputate malesuada ac sed neque."
     }
   ]
