@@ -1,22 +1,47 @@
 {
   "payload": [
     {
-      "signed": false,
+      "signed": true,
+      "signedDate": "2010-05-20",
       "rejected": false,
-      "validated": false,
+      "validated": true,
       "invalidated": false,
+      "signedBy": "User",
+      "verifiedBy": "ADP",
       "payload": {
-        "fact": "Address",
-        "time": "2017-05-20T18:49:32.725Z",
+        "fact": "Verification of Employment",
+        "DateTime": "2010-05-20T18:49:32.725Z",
         "address": "123 Main St., Cambridge, MA 02139"
       }
     },
     {
+      "signed": false,
+      "signedDate": "N/A",      
+      "rejected": false,
+      "validated": false,
+      "invalidated": false,
+      "signedBy": "N/A",
+      "verifiedBy": "N/A",
+      "payload": {
+        "fact": "Address",
+        "DateTime": "2010-05-20T18:49:32.725Z",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Seattle",
+          "addressRegion": "WA",
+          "postalCode": "98052",
+          "streetAddress": "20341 Whitworth Institute 405 N. Whitworth"
+        }
+      }
+    },
+    {
       "signed": true,
+      "signedDate": "2010-05-20",
       "rejected": false,
       "validated": true,
       "invalidated": false,
-      "time": "2017-05-20T18:49:32.725Z",
+      "signedBy": "User",
+      "verifiedBy": "N/A",
       "payload": {
         "fact": "Preference",
         "DateTime": "2010-05-20T18:49:32.725Z",
@@ -24,12 +49,16 @@
       }
     },
     {
-      "signed": false,
+      "signed": true,
+      "signedDate": "2010-05-20",
       "rejected": false,
-      "validated": false,
+      "validated": true,
       "invalidated": false,
+      "signedBy": "User",
+      "verifiedBy": "DCU",
       "payload": {
-        "fact": "Address",
+        "fact": "Verification of Insurance",
+        "DateTime": "2010-05-20T18:49:32.725Z",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Seattle",
@@ -41,37 +70,29 @@
     },
     {
       "signed": false,
+      "signedDate": "N/A",      
       "rejected": false,
       "validated": false,
       "invalidated": false,
-      "payload": {
-        "fact": "Address",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Seattle",
-          "addressRegion": "WA",
-          "postalCode": "98052",
-          "streetAddress": "20341 Whitworth Institute 405 N. Whitworth"
-        }
-      }
-    },
-    {
-      "signed": false,
-      "rejected": false,
-      "validated": false,
-      "invalidated": false,
+      "signedBy": "N/A",
+      "verifiedBy": "N/A",
       "payload": {
         "fact": "Email",
+        "DateTime": "2010-05-20T18:49:32.725Z",
         "address": "bsmith@example.com"
       }
     },
     {
-      "signed": false,
+      "signed": true,
+      "signedDate": "2014-05-20",      
       "rejected": false,
       "validated": false,
       "invalidated": false,
+      "signedBy": "User",
+      "verifiedBy": "N/A",
       "payload": {
         "fact": "Name",
+        "DateTime": "2010-05-20T18:49:32.725Z",
         "value": "Bob John Smith"
       }
     }

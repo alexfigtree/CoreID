@@ -6,7 +6,9 @@ import crypto from 'crypto'
 import keyto from "@trust/keyto"
 import fs from 'fs'
 
-import consolelog from "../../server/server.js"
+<
+import claims from '../../data/claims.json';
+
 import documents from '../../data/documents.json';
 import payloads from '../../data/payload.json';
 
@@ -19,7 +21,7 @@ export default class Documents extends Component {
     console.log(payload);
 
     payload.map((document, i) => console.log(document))
-
+    payload.map((claim, i) => console.log(claim))
 
         return (
             <div className="container-fluid container-fullw bg-white ng-scope">
@@ -38,7 +40,8 @@ export default class Documents extends Component {
                                     <th className="sortable">File Name</th>
                                     <th className="hidden-xs">Date Added</th>
                                     <th className="hidden-xs">Date Signed</th>
-                                    <th className="hidden-xs">Verified</th>
+                                    <th className="hidden-xs">Signed By</th>
+                                    <th className="hidden-xs">Status</th>
                                     <th className="hidden-xs">Actions</th>
                                 </tr>
                             </thead>
@@ -51,11 +54,15 @@ export default class Documents extends Component {
         {document.title}
                                         </Link>
                                     </td>
-        <td className="hidden-xs">{document.date}</td>
-                                    <td>{document.date}</td>
-        <td>{document.verified ? 'Yes' : 'No'}</td>
+        <td className="hidden-xs">{document.dateAdded}</td>
+                                    <td>{document.signedDate}</td>
+                                    <td>{document.signedBy}</td>
+                                    <td>N/A</td>
                                     <td className="center">
                                         <div className="visible-md visible-lg hidden-sm hidden-xs">
+                                            <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Info">
+                                                <i className="ti-info-alt" title={document.content}></i>
+                                            </a>
                                             <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Share"><i className="ti-control-forward"></i></a>
                                             <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Remove"><i className="ti-close"></i></a>
                                         </div>
@@ -70,52 +77,6 @@ export default class Documents extends Component {
 
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-md-12">
-                        <h5 className="over-title margin-bottom-15">
-                            <span className="text-bold">Claims</span>
-
-                            <Link className="ti-plus icon-yes" to="/claims">
-
-                            </Link>
-                        </h5>
-                        <p>
-                            Find all claims for transactions below.
-                        </p>
-                        <table className="table table-hover" id="sample-table-1">
-                            <thead>
-                                <tr>
-                                    <th className="sortable">File Name</th>
-                                    <th className="hidden-xs">Date Added</th>
-                                    <th className="hidden-xs">Date Signed</th>
-                                    <th className="hidden-xs">Verified</th>
-                                    <th className="hidden-xs">Actions</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <a href="#" rel="nofollow noopener noreferrer" target="_blank">
-                                            Ship-To Address
-                                        </a>
-                                    </td>
-                                    <td className="hidden-xs">March 7, 2016</td>
-                                    <td className="hidden-xs">March 19, 2016 </td>
-                                    <td className="hidden-xs">Self-Asserted </td>
-                                    <td className="center">
-                                        <div className="visible-md visible-lg hidden-sm hidden-xs">
-                                            <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Share"><i className="ti-control-forward"></i></a>
-                                            <a href="#" className="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Remove"><i className="ti-close"></i></a>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                    </div>
-                </div>
-
-                { this.renderDocuments() }
             </div>
         );
     }

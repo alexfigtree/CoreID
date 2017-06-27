@@ -49,20 +49,32 @@ export default class Sidebar extends Component {
                                             <i className="ti-layers-alt"></i>
                                         </div>
                                         <div className="item-inner">
-                                            <span className="title">Attestations/Documents</span><i className="icon-arrow"></i>
+                                            <span className="title">Documents</span><i className="icon-arrow"></i>
+                                        </div>
+                                    </div>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/claims">
+                                    <div className="item-content">
+                                        <div className="item-media">
+                                            <i className="ti-layers-alt"></i>
+                                        </div>
+                                        <div className="item-inner">
+                                            <span className="title">Claims</span><i className="icon-arrow"></i>
                                         </div>
                                     </div>
                                 </Link>
                             </li>
 
                             <li>
-                                <Link to="/claims">
+                                <Link to="/claim-create">
                                     <div className="item-content">
                                         <div className="item-media">
                                             <i className="ti-pencil-alt"></i>
                                         </div>
                                         <div className="item-inner">
-                                            <span className="title">Create Attestation</span><i className="icon-arrow"></i>
+                                            <span className="title">Create Claim/Attestation</span><i className="icon-arrow"></i>
                                         </div>
                                     </div>
                                 </Link>

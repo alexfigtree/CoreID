@@ -40,7 +40,7 @@ body {
 }
 
 h1 {
-    color: #69c;
+    color: #006f51;
 }
 
 h2 {
@@ -48,7 +48,7 @@ h2 {
 }
 
 a {
-  color: #007AFF;
+  color: #006f51;
   background-color: transparent;
 }
 
@@ -56,6 +56,10 @@ a, a:focus, a:hover, a:active {
   outline: 0 !important;
   text-decoration: none !important;
   cursor: pointer;
+}
+
+a:hover {
+  color: #66A893;
 }
 
 .main-content {
@@ -82,8 +86,12 @@ a, a:focus, a:hover, a:active {
   user-select: none;
 }
 .btn-primary.btn-o {
-  border: 1px solid #007AFF;
-  color: #007AFF;
+  border: 1px solid #006f51;
+  color: #006f51;
+}
+.btn-primary.btn-o:hover {
+  border: 1px solid #66A893;
+  color: #66A893;
 }
 
 .btn-o {
@@ -123,11 +131,11 @@ a, a:focus, a:hover, a:active {
   height: 65px;
 }
 .navbar .navbar-header .navbar-brand {
-  padding: 0 15px;
-  font-size: 30px;
+  padding: 0 20px;
+  font-size: 35px;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  color: #5b5b60;
+  color: #006f51;
   text-decoration: none;
   -webkit-font-smoothing: antialiased !important;
 }
@@ -456,6 +464,7 @@ a, a:focus, a:hover, a:active {
   font-size: 17px;
   position: relative;
   top: 2px;
+  color: #006f51;
 }
 #sidebar > div nav > ul li a .icon-arrow {
   float: right;
@@ -466,7 +475,7 @@ a, a:focus, a:hover, a:active {
   font-size: 12px;
 }
 #sidebar > div nav > ul li a .icon-arrow:before {
-  content: "\e64a";
+  content: "\e649";
   font-family: themify;
 }
 #sidebar > div nav > ul li.open {
@@ -889,8 +898,8 @@ ul.sub-menu li ul.sub-menu li ul.sub-menu li a {
 
 .icon-yes {
   font-weight: 900 !important;
-  color: lawngreen !important;
-  font-size: 16px;
+  color: #006f51 !important;
+  font-size: 20px;
   padding-left: 20px !important;
 }
 
@@ -1095,7 +1104,7 @@ fieldset .form-group {
 fieldset legend {
   background: inherit;
   font-family: "Lato", sans-serif;
-  color: #007AFF;
+  color: #006f51;
   font-size: 15px;
   left: 10px;
   padding: 0 10px;
@@ -2286,4 +2295,21 @@ input[type="radio"], input[type="checkbox"] {
 
 .ui-select-multiple.ui-select-bootstrap input.ui-select-search {
   border: none !important;
+}
+
+
+.indiv-doc {
+  width: 50%;
+}
+
+.column-left {
+
+}
+.column-right {
+  float: right;
+}
+.doc-viewer {
+  border: 1px solid black;
+  height: 500px;
+  width: 40%;
 }

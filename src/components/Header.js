@@ -12,7 +12,7 @@ export default class Header extends Component {
 			<header className="navbar">
 				<div className="navbar-header">
 					<Link className="navbar-brand" to="/">
-						CoreID
+						DCU
 					</Link>
 					<div className="dropdown current-user">
 						<a href="" className="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
