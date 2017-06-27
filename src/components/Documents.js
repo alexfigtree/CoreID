@@ -5,6 +5,7 @@ import bitcoin from 'bitcoin'
 import crypto from 'crypto'
 import keyto from "@trust/keyto"
 import fs from 'fs'
+import jsonfile from 'jsonfile'
 
 
 import claims from '../../data/claims.json';
@@ -16,12 +17,14 @@ import './Documents.css';
 
 
 export default class Documents extends Component {
+
   render(){
     let payload = documents.payload;
     console.log(payload);
 
     payload.map((document, i) => console.log(document))
     payload.map((claim, i) => console.log(claim))
+    this.renderDocuments();
 
         return (
             <div className="container-fluid container-fullw bg-white ng-scope">
@@ -84,6 +87,7 @@ export default class Documents extends Component {
     signDocument(document){
       // console.log(consolelog.sayHelloinEnglish())
       // console.log(consolelog.sign(document))
+      var s = fs.ReadStream(payloads)
       console.log(document)
       console.log(JSON.stringify(document))
       var client = new bitcoin.Client({
@@ -94,6 +98,7 @@ export default class Documents extends Component {
       })
       var address = "mjH9KTBnNyzdLifkr6xch5FkXnGdbf27mq"
       var message = JSON.stringify(document.payload)
+      console.log(message)
       var signaturePayload = {}
 
       console.log(message)
@@ -106,6 +111,7 @@ export default class Documents extends Component {
         console.log(signature)
         console.log(address)
       })
+
 
     }
 

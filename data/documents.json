@@ -10,7 +10,8 @@
       "signedBy": "N/A",
       "signedDate": "N/A",
       "rejected": false,
-      "content": "The lender obtains the borrower’s signature on the following Blanket Authorization form to obtain the  documentation needed to evaluate the borrower’s creditworthiness.  This borrower-signed document gives the lender blanket authorization to request the information needed to document  the borrower’s creditworthiness. I hereby authorize ___________________________ (the “lender”) to verify my past and  present employment earnings records, bank accounts, stock holdings, and any other asset balances that are needed to  process my mortgage loan application. I further authorize ______________________ (the “lender”) to order a consumer  credit report and verify other credit information, including past and present mortgage and landlord references. It is  understood that a photocopy of this form also will serve as authorization. The information the lender obtains is only to be  used in the processing of my application for a mortgage loan."
+      "content": "The lender obtains the borrower’s signature on the following Blanket Authorization form to obtain the  documentation needed to evaluate the borrower’s creditworthiness.  This borrower-signed document gives the lender blanket authorization to request the information needed to document  the borrower’s creditworthiness. I hereby authorize ___________________________ (the “lender”) to verify my past and  present employment earnings records, bank accounts, stock holdings, and any other asset balances that are needed to  process my mortgage loan application. I further authorize ______________________ (the “lender”) to order a consumer  credit report and verify other credit information, including past and present mortgage and landlord references. It is  understood that a photocopy of this form also will serve as authorization. The information the lender obtains is only to be  used in the processing of my application for a mortgage loan.",
+      "signatures":[]
     },
     {
       "link": "/promissorynote",
@@ -31,7 +32,8 @@
       ],
       "amount": "$2000 USD",
       "rejected": false,
-      "content": "Promissory Note  __________________   ___________________________      _______________    City  \t\t\t                 State  \t\t\t\t   Date                                (Borrower)          agrees and promises to pay to                        (Lender)       the sum of  ($                     )   Dollars for value received, with interest at the annual rate of                % payable after          (Date)           . If this note is in default and is placed for collection,       (Borrower)            shall pay all reasonable costs of collection and attorneys fees.   ____________________________ By_________________________________ (Borrower)                          (Date) ____________________________  By_________________________________ (Lender)                              (Date) _________________________________ (Witness)                             (Date) "
+      "content": "Promissory Note  __________________   ___________________________      _______________    City  \t\t\t                 State  \t\t\t\t   Date                                (Borrower)          agrees and promises to pay to                        (Lender)       the sum of  ($                     )   Dollars for value received, with interest at the annual rate of                % payable after          (Date)           . If this note is in default and is placed for collection,       (Borrower)            shall pay all reasonable costs of collection and attorneys fees.   ____________________________ By_________________________________ (Borrower)                          (Date) ____________________________  By_________________________________ (Lender)                              (Date) _________________________________ (Witness)                             (Date) ",
+      "signatures":[]
     },
     {
       "link": "/contract/1",
@@ -44,7 +46,8 @@
       "signedDate": "03-01-2017",
       "deadline": "06-01-2017",
       "rejected": false,
-      "content": "Etiam bibendum laoreet pretium. Phasellus ac augue quis mauris ultrices pellentesque at id ante. Morbi rutrum nisl a mi ultricies, et porta dui imperdiet. Integer elementum, nibh at tincidunt consectetur, turpis tellus lobortis arcu, vel molestie orci lectus non tortor. In purus neque, tempor sed arcu vitae, pretium rutrum metus. Integer lacus ex, posuere id sem eu, tincidunt elementum sapien. Nunc quis rutrum nulla. Nullam sit amet est vel turpis aliquam accumsan. Donec molestie sapien vehicula cursus sollicitudin. Praesent lorem magna, sagittis id diam a, vestibulum semper mauris."
+      "content": "Etiam bibendum laoreet pretium. Phasellus ac augue quis mauris ultrices pellentesque at id ante. Morbi rutrum nisl a mi ultricies, et porta dui imperdiet. Integer elementum, nibh at tincidunt consectetur, turpis tellus lobortis arcu, vel molestie orci lectus non tortor. In purus neque, tempor sed arcu vitae, pretium rutrum metus. Integer lacus ex, posuere id sem eu, tincidunt elementum sapien. Nunc quis rutrum nulla. Nullam sit amet est vel turpis aliquam accumsan. Donec molestie sapien vehicula cursus sollicitudin. Praesent lorem magna, sagittis id diam a, vestibulum semper mauris.",
+      "signatures":[]
     },
     {
       "link": "/contract/4",
@@ -56,7 +59,8 @@
       "signedBy": "User",
       "signedDate": "03-01-2017",
       "rejected": false,
-      "content": "Fusce pulvinar, enim vel mollis placerat, nibh mauris sollicitudin nunc, ut finibus odio augue quis lectus. Ut leo ex, vestibulum a nisi vitae, vehicula volutpat tellus. Pellentesque commodo leo ut massa consequat, vel tempor enim congue. Duis venenatis venenatis enim at tincidunt. Sed dignissim faucibus ultricies. Sed vestibulum ipsum ut volutpat aliquet. Quisque eu placerat nibh. Nullam diam neque, commodo eu congue molestie, fringilla a diam. Etiam iaculis egestas lobortis. Donec sed eros vitae justo vulputate malesuada ac sed neque."
+      "content": "Fusce pulvinar, enim vel mollis placerat, nibh mauris sollicitudin nunc, ut finibus odio augue quis lectus. Ut leo ex, vestibulum a nisi vitae, vehicula volutpat tellus. Pellentesque commodo leo ut massa consequat, vel tempor enim congue. Duis venenatis venenatis enim at tincidunt. Sed dignissim faucibus ultricies. Sed vestibulum ipsum ut volutpat aliquet. Quisque eu placerat nibh. Nullam diam neque, commodo eu congue molestie, fringilla a diam. Etiam iaculis egestas lobortis. Donec sed eros vitae justo vulputate malesuada ac sed neque.",
+      "signatures":[]
     }
   ]
 }
