@@ -6,7 +6,7 @@
       "rejected": false,
       "validated": true,
       "invalidated": false,
-      "signedBy": "ADP",
+      "signedBy": "User",
       "verifiedBy": "ADP",
       "payload": {
         "fact": "Verification of Employment",
@@ -54,7 +54,7 @@
       "rejected": false,
       "validated": true,
       "invalidated": false,
-      "signedBy": "DCU",
+      "signedBy": "User",
       "verifiedBy": "DCU",
       "payload": {
         "fact": "Verification of Insurance",
