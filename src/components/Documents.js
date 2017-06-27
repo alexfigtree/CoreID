@@ -6,7 +6,7 @@ import crypto from 'crypto'
 import keyto from "@trust/keyto"
 import fs from 'fs'
 
-<
+
 import claims from '../../data/claims.json';
 
 import documents from '../../data/documents.json';
