@@ -32,6 +32,9 @@ export default class ClaimsCreate extends Component {
                             <option value="">Preference</option>
                             <option value="">Email</option>
                             <option value="">Name</option>
+                            <option value="">Verfication of Employment</option>
+                            <option value="">Verification of Income</option>
+                            <option value="">Verification of Insurance</option>
                             <option value="">Other</option>
                         </select>
                     </fieldset>      
