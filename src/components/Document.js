@@ -10,7 +10,7 @@ console.log(documents);
 export default class Document extends Component {
 
   signDocument(document){
-    var signedBy = "Andrew Koh"
+    var signedBy = "Alice"
     console.log(document)
     var client = new bitcoin.Client({
       host: 'localhost',
@@ -23,7 +23,7 @@ export default class Document extends Component {
     var jsonObject = document
     for (var key in document){
 
-      if(key !== ("signedBy" || "signed" || "signedDate" || "rejected" || "signatures")){
+      if((key.toString() != "signedBy" && key.toString() != "signed" && key.toString() != "signedDate" && key.toString() != "rejected" && key.toString() != "signatures" && key.toString() != "verifiedBy")){
         console.log(document[key].toString())
         shasum.update(Buffer.from(document[key].toString()))
       }
@@ -37,7 +37,7 @@ export default class Document extends Component {
       jsonObject.signatures.push({"address": address, "signature": signature, "Hashed payload": hashedvalues})
       jsonObject.signed = true
       jsonObject.signedBy = signedBy
-      
+
     })
     return(
       jsonObject

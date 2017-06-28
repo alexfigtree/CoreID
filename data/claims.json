@@ -1,7 +1,7 @@
 {
   "payload": [
     {
-      "signed": true,
+      "signed": false,
       "signedDate": "2010-05-20",
       "rejected": false,
       "validated": true,
@@ -12,11 +12,12 @@
         "fact": "Verification of Employment",
         "DateTime": "2010-05-20T18:49:32.725Z",
         "address": "123 Main St., Cambridge, MA 02139"
-      }
+      },
+      "signatures":[]
     },
     {
       "signed": false,
-      "signedDate": "N/A",      
+      "signedDate": "N/A",
       "rejected": false,
       "validated": false,
       "invalidated": false,
@@ -31,7 +32,8 @@
           "addressRegion": "WA",
           "postalCode": "98052",
           "streetAddress": "20341 Whitworth Institute 405 N. Whitworth"
-        }
+        },
+        "signatures":[]
       }
     },
     {
@@ -46,7 +48,8 @@
         "fact": "Preference",
         "DateTime": "2010-05-20T18:49:32.725Z",
         "ColorPref": "#6699cc"
-      }
+      },
+      "signatures":[]
     },
     {
       "signed": true,
@@ -65,12 +68,13 @@
           "addressRegion": "WA",
           "postalCode": "98052",
           "streetAddress": "20341 Whitworth Institute 405 N. Whitworth"
-        }
+        },
+        "signatures":[]
       }
     },
     {
       "signed": false,
-      "signedDate": "N/A",      
+      "signedDate": "N/A",
       "rejected": false,
       "validated": false,
       "invalidated": false,
@@ -84,7 +88,7 @@
     },
     {
       "signed": true,
-      "signedDate": "2014-05-20",      
+      "signedDate": "2014-05-20",
       "rejected": false,
       "validated": false,
       "invalidated": false,
@@ -94,7 +98,8 @@
         "fact": "Name",
         "DateTime": "2010-05-20T18:49:32.725Z",
         "value": "Bob John Smith"
-      }
+      },
+      "signatures":[]
     }
   ]
 }
