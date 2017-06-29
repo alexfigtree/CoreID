@@ -13,15 +13,15 @@ var client = new bitcoin.Client({
 var address = "mkqCZE3X1Yab7pHkg3FnVNvaYSx8p8N3Zs"
 var address1 = "mjH9KTBnNyzdLifkr6xch5FkXnGdbf27mq"
 var signature1 = ""
-var file = "./pdf.pdf"
+// var file = "./pdf.pdf"
 var algo = "sha256";
 var shasum = crypto.createHash(algo);
 
-var s = fs.ReadStream(file);
+// var s = fs.ReadStream(file);
 var samplePayloadObject = {}
 
 var jsonObject = {}
-jsonfile.readFile('payload.json', function(err, obj){
+jsonfile.readFile('./../../data/payload.json', function(err, obj){
   //console.log(JSON.stringify(obj))
   obj.entries.map((document) => {
     var shasum1 = crypto.createHash(algo);

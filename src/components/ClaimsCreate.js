@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import '../App.css';
 import '../themify-icons/themify-icons.css';
 import './Claims.css';
+import PouchDB from 'pouchdb'
 
 
 export default class ClaimsCreate extends Component {
@@ -10,7 +11,7 @@ export default class ClaimsCreate extends Component {
         return (
             <div className="container-fluid container-fullw bg-white ng-scope">
                 { this.renderForm() }
-                
+
             </div>
         );
 
@@ -27,7 +28,7 @@ export default class ClaimsCreate extends Component {
                     <fieldset>
                         <legend>Claim Type</legend>
                         <select name="attestation" className="form-control">
-                            <option value="">Select One</option> 
+                            <option value="">Select One</option>
                             <option value="">Address</option>
                             <option value="">Preference</option>
                             <option value="">Email</option>
@@ -37,7 +38,7 @@ export default class ClaimsCreate extends Component {
                             <option value="">Verification of Insurance</option>
                             <option value="">Other</option>
                         </select>
-                    </fieldset>      
+                    </fieldset>
                     <div className="row">
                         <div className="col-md-6">
                             <fieldset>
@@ -64,7 +65,7 @@ export default class ClaimsCreate extends Component {
                                         <input type="email" placeholder="Text Field" name="email" id="email" className="form-control"/>
                                     </div>
                                     <label>
-                                        Choose your state or region: 
+                                        Choose your state or region:
                                     </label>
                                     <select name="state" className="form-control cs-placeholder">
                                         <option value="" className="icon-arrow">Unselected</option>
@@ -119,7 +120,7 @@ export default class ClaimsCreate extends Component {
                                         <option value="WI">Wisconsin</option>
                                         <option value="WY">Wyoming</option>
                                     </select>
-                                        
+
                                 </div>
                             </fieldset>
                             <fieldset>
@@ -194,7 +195,7 @@ export default class ClaimsCreate extends Component {
                     </div>
                     <button type="submit" className="btn btn-wide btn-o btn-primary">Save</button>
                 </div>
-            </div>    
+            </div>
 
         )
     }
