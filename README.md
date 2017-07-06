@@ -2,9 +2,10 @@
 
 For Human Dynamics group blockchain-backed individual identity open source prototype
 
-* First Shared Diagram: https://www.draw.io/#Halexfigtree%2FCoreID%2Fmaster%2FInitialDiagram.xml
-
 ## Getting Started 
+
+* Quick video demonstrating how to run this code: https://youtu.be/clJppZjnCkY
+
  In this project we utilize the bitcoin core libraries for signing documents and claims and for validating the signatures, so we first need to download the bitcoin core binaries, and run the ./bitcoind with the correct configurations in the .bitcoin/bitcoin.conf file
  
  Be sure to create an public/private key pair to sign with using ./bitcoin-cli if you put type ./bitcoin-cli help a list of available commands will pop up to help you do that. After doing so make sure to copy over the address in to the signing section of document.js and claim.js. Be sure to change user and pass as well if necessary.
@@ -25,9 +26,10 @@ For Human Dynamics group blockchain-backed individual identity open source proto
 But this will open the app on your browswer on port 3000, but change the port to 8080 since we have proxied all of our requests through that. 
 
 ## Demo
-To check out the demo itself navigate to documents, and click on a document to sign. To sign simply click the signing button. An alert window should pop up, and after clicking continue another window confirming the signature, hashed payload, and public address used in the signing should pop up. If the signature section is undefined or empty either your bitcoind server is not up or the connection to it is blocked by cors and the proxy not being set up correctly.
-## Documentation
 
+To check out the demo itself navigate to documents, and click on a document to sign. To sign simply click the signing button. An alert window should pop up, and after clicking continue another window confirming the signature, hashed payload, and public address used in the signing should pop up. If the signature section is undefined or empty either your bitcoind server is not up or the connection to it is blocked by cors and the proxy not being set up correctly.
+
+## Documentation
 
 Documentation about the front-end UI and UX for an end-user blockchain-enabled individual identity and digital signature prototype application
 
@@ -92,4 +94,8 @@ Documentation will include project diagrams provided by MIT depicting key roles,
 ## Project Demonstrations
 
 The demo slides and screen walkthrough video will show two key actions, namely 1. Digital signatures used to sign legal contracts and notices are publicly verifiable by use of the public key associated with a Bitcoin and/or Ethereum public blockchains address associated with the signer; and 2. Digitally signed contracts and legal notices accessible at a standard URL on the web in the form of human readable pure text files.
+
+---------
+
+* First Shared Diagram: https://www.draw.io/#Halexfigtree%2FCoreID%2Fmaster%2FInitialDiagram.xml
 
