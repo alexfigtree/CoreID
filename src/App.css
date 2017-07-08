@@ -198,6 +198,7 @@ a:hover {
 .main-content {
   min-height: 100%;
   position: relative;
+  height: 800px;
 }
 
 .main-content .container {
