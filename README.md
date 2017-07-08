@@ -11,17 +11,17 @@ For Human Dynamics group blockchain-backed individual identity open source proto
 
 ## Setting up the bitcoin core
 
-In this project we utilize the bitcoin core libraries for signing documents and claims and for validating the signatures, so we first need to download the bitcoin core binaries, and run the ./bitcoind with the correct configurations in the .bitcoin/bitcoin.conf file.
+Summary: In this project we utilize the bitcoin core libraries for signing documents and claims and for validating the signatures, so we first need to download the bitcoin core binaries, and run the ./bitcoind with the correct configurations in the .bitcoin/bitcoin.conf file.
  
 You can follow these instructions to set up your bitcoin core: 
 
-* Download BitCoin Core Binaries: https://bitcoin.org/en/download. At the time of this update, the latest version to download was bitcoin-0.14.1-osx64.tar.gz for Mac.
+* Download BitCoin Core Binaries: https://bitcoin.org/en/download. At the time of this update, the latest version to download was bitcoin-0.14.1-osx64.tar.gz for Mac. You can download it to your desktop or anywhere else.
 
-* In a terminal, change your directory to the downloaded folder. Unpack and run ./bitcoind with proper configurations.
-
-* In the home directory you should have .bitcoin/ folder. In it create a bitcoin.conf file if you want to save your default configurations when running ./bitcoind. Since we will be using the rpc functionality you would also need to add your own rpcuser and rpcpassword for use in the rpc.
+* In a terminal, change your directory to the downloaded folder. From the `bin` folder, unpack and run ./bitcoind with proper configurations. You 
 
 * npm install bitcoin. If you do not have npm already installed install it alongside the latest node version.
+
+* Open a new terminal window. In the home directory you should have .bitcoin/ folder. In it create a bitcoin.conf file if you want to save your default configurations when running ./bitcoind. Since we will be using the rpc functionality you would also need to add your own rpcuser and rpcpassword for use in the rpc.
 
 * For specifications details on the package look here https://www.npmjs.com/package/bitcoin
 
