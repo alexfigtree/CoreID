@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import '../App.css';
 import '../themify-icons/themify-icons.css';
 import './Claims.css';
-import PouchDB from 'pouchdb'
+//import PouchDB from 'pouchdb'
 
 
 export default class ClaimsCreate extends Component {

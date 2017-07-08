@@ -5,7 +5,9 @@ import bitcoin from 'bitcoin'
 import crypto from 'crypto'
 import keyto from "@trust/keyto"
 import fs from 'fs'
-import jsonfile from 'jsonfile'
+
+
+//import jsonfile from 'jsonfile'
 
 
 import claims from '../../data/claims.json';
@@ -92,7 +94,7 @@ export default class Documents extends Component {
       console.log(JSON.stringify(document))
       var client = new bitcoin.Client({
         host: 'localhost',
-        port: '8080/bitcoind',
+        port: '8332/bitcoind',
         user: 'fred',
         pass: 'fred'
       })
