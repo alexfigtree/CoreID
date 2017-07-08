@@ -156,7 +156,8 @@ a:hover {
 
 @media (min-width: 992px) {
 	#sidebar {
-		margin-top: 65px
+		margin-top: 65px;
+    height: 800px;
 	}	
 	#sidebar:before {
 		background-color: inherit;
