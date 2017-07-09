@@ -19,7 +19,7 @@ Documentation about the front-end UI and UX for an end-user blockchain-enabled i
 |---|---|---|
 | Swimlane Diagram | [File(s)](https://github.com/alexfigtree/CoreID/blob/master/docs/Diagram.md) | [#19](https://github.com/alexfigtree/CoreID/issues/19)  |
 | User Flow  | File(s)  | [#6](https://github.com/alexfigtree/CoreID/issues/6)  |
-| Key Use Cases  |  File(s) |  [#18](https://github.com/alexfigtree/CoreID/issues/18) |
+| Key Use Cases  |  [Link](https://github.com/alexfigtree/CoreID/blob/master/docs/Key_Use_Cases.md) |  [#18](https://github.com/alexfigtree/CoreID/issues/18) |
 | Data Model  | [File](https://github.com/alexfigtree/CoreID/blob/master/docs/Data_Model_and_Conceptual_Architecture.md#data-model)  |  [#21](https://github.com/alexfigtree/CoreID/issues/21)  |
 | Conceptual Architecture for Analytics | File(s) |  [#22](https://github.com/alexfigtree/CoreID/issues/22)  |
 
