@@ -21,7 +21,7 @@ You can follow these instructions to set up your bitcoin core:
 
 * npm install bitcoin. If you do not have npm already installed install it alongside the latest node version.
 
-* Open a new terminal window. In the home directory you should have .bitcoin/ folder. In it create a bitcoin.conf file if you want to save your default configurations when running ./bitcoind. Since we will be using the rpc functionality you would also need to add your own rpcuser and rpcpassword for use in the rpc.
+* Open a new terminal window. In the home directory you should have .bitcoin/ folder. On a Mac, this may be found under `/Library/Application Support/Bitcoin`. In it create a bitcoin.conf file if you want to save your default configurations when running ./bitcoind. Since we will be using the rpc functionality you would also need to add your own rpcuser and rpcpassword for use in the rpc.
 
 * For specifications details on the package look here https://www.npmjs.com/package/bitcoin
 
