@@ -97,9 +97,19 @@ a:hover {
 .btn-o {
   background: none !important;
 }
+
 .btn-wide {
   min-width: 80px;
 }
+
+.back-btn {
+  margin-right: 30px;
+}
+
+.btn-row {
+  float: right;
+}
+
 
 /* navbar */
 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 import documents from '../../data/documents.json';
 import bitcoin from 'bitcoin'
@@ -59,9 +60,23 @@ export default class Document extends Component {
                     <h4> Signed By: {document.signedBy} </h4>
                     <h4> Content: </h4>
                     <blockquote className="">{document.content}</blockquote>
+                    <h3 className="btn-row"> 
+                        <button type="back" className="btn btn-wide btn-o btn-primary back-btn">
+                            <Link to="/documents" rel="nofollow noopener noreferrer">
+                                Back
+                            </Link>
+                         </button>
+                        <button 
+                            type="submit" 
+                            className="btn btn-wide btn-o btn-primary" 
+                            onClick={() => { 
+                                confirm('Are you sure you want to sign ' + document.title + '?'); this.signDocument(document) 
+                            }}>
+                            Sign
+                        </button>
+                    </h3>    
                 </div>
-
-                <h3> <button type="submit" className="btn btn-wide btn-o btn-primary" onClick={() => { alert('Are you sure you want to sign ' + document.title + '?'); this.signDocument(document) }}>Sign</button></h3>
+                
             </div>
 
         )
