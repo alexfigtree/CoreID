@@ -40,8 +40,8 @@ Slides and screen video of informal mid-project demo and final demo
 
 | Project Demonstration  | Slides  | Video  | Issues  |
 |---|---|---|---|
-| Midpoint Project Demo | Slide Deck(s)  | Video(s)  | [#27](https://github.com/alexfigtree/CoreID/issues/27)  |
-| Final Project Demo | Slide Deck(s)  | Video(s)  | [#28](https://github.com/alexfigtree/CoreID/issues/28)  |
+| Midpoint Project Demo | ---  | https://www.youtube.com/watch?v=bY9nLPySd78&ab_channel=law.MIT.edu  | [#27](https://github.com/alexfigtree/CoreID/issues/27)  |
+| Final Project Demo | https://docs.google.com/presentation/d/13I7_G37qNnyRuv28Ev8c_CTF9E6AgCx7YUmsg8gKCoo/edit?usp=sharing  | ---  | [#28](https://github.com/alexfigtree/CoreID/issues/28)  |
 
 
 ### E. Prototype UI/UX 
