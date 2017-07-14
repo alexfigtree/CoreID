@@ -1,6 +1,6 @@
 # CoreID Data Model and Conceptual Architecture
 
-For Human Dynamics group blockchain-backed individual identity open source prototype
+For the MIT Human Dynamics group blockchain-backed individual identity open source prototype
 
 
 ## Data Model:
@@ -43,5 +43,6 @@ The payload takes the form of an array of objects, and contains the following re
 
 ## Conceptual Architecture:
 
+https://www.draw.io/#Halexfigtree%2FCoreID%2Fmaster%2Fdocs%2Fdiagrams%2FConceptual_Architecture.xml
 https://www.draw.io/#Halexfigtree%2FCoreID%2Fmaster%2FInitialDiagram.xml
 
