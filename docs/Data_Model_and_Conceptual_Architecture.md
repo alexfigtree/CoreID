@@ -5,7 +5,40 @@ For Human Dynamics group blockchain-backed individual identity open source proto
 
 ## Data Model:
 
-Placeholder links to more info on data structures for [Claims](https://github.com/alexfigtree/CoreID/blob/master/data/claims.json) and [Documents](https://github.com/alexfigtree/CoreID/blob/master/data/documents.json) to be abstracted with other project data into a project data model.
+The Data model consists consists of mock data in JSON format. There are separate data structures for Claims and Documents
+
+
+| Data Model  | Corresponding JSON  | Issues  |
+|---|---|---|
+| Dashboard  | [Documents.json](https://github.com/alexfigtree/CoreID/blob/master/data/documents.json)  |  [#21](https://github.com/alexfigtree/CoreID/issues/21) |
+| Claims  | [Claims.json](https://github.com/alexfigtree/CoreID/blob/master/data/claims.json) | [#21](https://github.com/alexfigtree/CoreID/issues/21)  |
+
+
+Documents.json:
+The payload takes the form of an array of objects, and contains the following required fields:
+  - link
+  - type
+  - title
+  - dateAdded
+  - lender
+  - signed
+  - signedBy
+  - signedDate
+  - content
+  - signatures
+
+Claims.json:
+The payload takes the form of an array of objects, and contains the following required fields:
+  - signedDate
+  - rejected
+  - validated
+  - invalidated
+  - signedBy
+  - verifiedBy
+  - payload: object consisting of
+      - fact
+      - DateTime
+  - signatures
 
 
 ## Conceptual Architecture:
