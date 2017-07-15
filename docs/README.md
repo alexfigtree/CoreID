@@ -19,10 +19,10 @@ Documentation about the front-end UI and UX for an end-user blockchain-enabled i
 | Architectural Documentation  | Assets  | Issues  |
 |---|---|---|
 | Swimlane Diagram | [File(s)](https://github.com/alexfigtree/CoreID/blob/master/docs/Diagram.md) | [#19](https://github.com/alexfigtree/CoreID/issues/19)  |
-| User Flow  | File(s)  | [#6](https://github.com/alexfigtree/CoreID/issues/6)  |
-| Key Use Cases  |  [Link](https://github.com/alexfigtree/CoreID/blob/master/docs/Key_Use_Cases.md) |  [#18](https://github.com/alexfigtree/CoreID/issues/18) |
-| Data Model  | [File](https://github.com/alexfigtree/CoreID/blob/master/docs/Data_Model_and_Conceptual_Architecture.md#data-model)  |  [#21](https://github.com/alexfigtree/CoreID/issues/21)  |
-| Conceptual Architecture for Analytics | File(s) |  [#22](https://github.com/alexfigtree/CoreID/issues/22)  |
+| User Flow  | [User_Flow.md](https://github.com/alexfigtree/CoreID/blob/master/docs/User_Flow.md), [User_Flow_documents.pdf](https://github.com/alexfigtree/CoreID/blob/master/docs/Diagrams/User_Flow_documents.pdf), [User_Flow_Claims.pdf](https://github.com/alexfigtree/CoreID/blob/master/docs/Diagrams/User_Flow_Claims.pdf)  | [#6](https://github.com/alexfigtree/CoreID/issues/6)  |
+| Key Use Cases  |  [Key_Use_Cases.md](https://github.com/alexfigtree/CoreID/blob/master/docs/Key_Use_Cases.md) |  [#18](https://github.com/alexfigtree/CoreID/issues/18) |
+| Data Model  | [Data_Model_and_Conceptual_Architecture.md](https://github.com/alexfigtree/CoreID/blob/master/docs/Data_Model_and_Conceptual_Architecture.md#data-model)  |  [#21](https://github.com/alexfigtree/CoreID/issues/21)  |
+| Conceptual Architecture for Analytics | [Data_Model_and_Conceptual_Architecture.md](https://github.com/alexfigtree/CoreID/blob/master/docs/Data_Model_and_Conceptual_Architecture.md#conceptual-architecture) |  [#22](https://github.com/alexfigtree/CoreID/issues/22)  |
 
 
 ### C. Qualitative Software Testing
