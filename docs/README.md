@@ -10,8 +10,9 @@ Documentation about the front-end UI and UX for an end-user blockchain-enabled i
 | Dashboard  | [Updated_mockup_5_27_17.png](https://github.com/alexfigtree/CoreID/blob/master/docs/Updated_mockup_5_27_17.png)  |  [#5](https://github.com/alexfigtree/CoreID/issues/5) |
 | Document  | [Create_doc_functionality_mockup_6_15_17.jpg](https://github.com/alexfigtree/CoreID/blob/master/docs/Create_doc_functionality_mockup_6_15_17.jpg) | [#5](https://github.com/alexfigtree/CoreID/issues/5)  |
 | Attestations/Claims | [Create_doc_functionality_mockup_6_15_17.jpg](https://github.com/alexfigtree/CoreID/blob/master/docs/Create_doc_functionality_mockup_6_15_17.jpg) | [#5](https://github.com/alexfigtree/CoreID/issues/5)  |
-| Executing a Signature  | File(s)  | [#23](https://github.com/alexfigtree/CoreID/issues/23)  |
-| Verifying a Signature | File(s)  | [#24](https://github.com/alexfigtree/CoreID/issues/24)  |
+| Verifying a Signature | [Documents](https://github.com/alexfigtree/CoreID/blob/master/docs/Mockups/Updated_mockups_7_8_17/Doc_signature_confirmation.png), [Claims](https://github.com/alexfigtree/CoreID/blob/master/docs/Mockups/Updated_mockups_7_8_17/Claim_signature_confirmation.png)  | [#24](https://github.com/alexfigtree/CoreID/issues/24)  |
+| Executing a Signature  | [Documents](https://github.com/alexfigtree/CoreID/blob/master/docs/Mockups/Updated_mockups_7_8_17/Doc_signature_success.png), [Claims](https://github.com/alexfigtree/CoreID/blob/master/docs/Mockups/Updated_mockups_7_8_17/Claim_signature_success.png)  | [#23](https://github.com/alexfigtree/CoreID/issues/23)  |
+
 
 ### B. Architectural Documentation
 
