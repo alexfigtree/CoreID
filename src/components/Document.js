@@ -15,11 +15,11 @@ export default class Document extends Component {
     console.log(document)
     var client = new bitcoin.Client({
       host: 'localhost',
-      port: '8080/bitcoind',
-      user: 'fred',
-      pass: 'fred'
+      port: '8081/bitcoind',
+      user: 'user',
+      pass: 'pass'
     })
-    var address = 'mkqCZE3X1Yab7pHkg3FnVNvaYSx8p8N3Zs'
+    var address = 'mfktUYX4YPoiPuxNJujk7uJLM1ZcN16JbG'
     var shasum = crypto.createHash('sha256')
     var jsonObject = document
     for (var key in document){

@@ -6,11 +6,11 @@ var request = require('request')
 
 var client = new bitcoin.Client({
   host: 'localhost',
-  port: 80,
-  user: 'fred',
-  pass: 'fred'
+  port: 8332,
+  user: 'user',
+  pass: 'pass'
 });
-var address = "mkqCZE3X1Yab7pHkg3FnVNvaYSx8p8N3Zs"
+var address = "mfktUYX4YPoiPuxNJujk7uJLM1ZcN16JbG"
 var address1 = "mjH9KTBnNyzdLifkr6xch5FkXnGdbf27mq"
 var signature1 = ""
 // var file = "./pdf.pdf"
@@ -22,6 +22,10 @@ var samplePayloadObject = {}
 
 var jsonObject = {}
 jsonfile.readFile('./../../data/payload.json', function(err, obj){
+<<<<<<< Updated upstream
+=======
+  //console.log(obj)
+>>>>>>> Stashed changes
   //console.log(JSON.stringify(obj))
   obj.entries.map((document) => {
     var shasum1 = crypto.createHash(algo);
@@ -32,33 +36,21 @@ jsonfile.readFile('./../../data/payload.json', function(err, obj){
         shasum1.update(Buffer.from(document.payload[key].toString()))
       }
     }
-    request(document.payload.iss,function(error, response, body){
-      if(!error && response.statusCode == 200){
-        var buf = (Buffer.from(body.toString()))
-      }
-    })
-    .on('error', function(err){
-      console.log(err)
-    })
-    .on('data',function(response){
-      shasum1.update(response)
-    })
-    .on('end',function(response){
-      console.log("done")
-      hashedvalues = shasum1.digest('hex')
-      console.log(hashedvalues)
-      //console.log(hashedvalues)
-      //console.log("fuck",document)
-      client.signMessage(address, hashedvalues, function(err,signature){
-        //console.log(signature)
-        //console.log(address1)
-        document.signatures.push({"address":address, "signature": signature, "hashedPayload": hashedvalues})
-        //console.log(JSON.stringify(document.signatures))
-        //console.log(JSON.stringify(obj, null, 2))
-        fs.writeFile("payload.json", JSON.stringify(obj, null, 2), function(err){
-          if (err) return console.log(err);
 
-        })
+    
+    console.log("done")
+    hashedvalues = shasum1.digest('hex')
+    console.log(hashedvalues)
+    //console.log(hashedvalues)
+    //console.log("fuck",document)
+    client.signMessage(address, hashedvalues, function(err,signature){
+      //console.log(signature)
+      //console.log(address1)
+      document.signatures.push({"address":address, "signature": signature, "hashedPayload": hashedvalues})
+      //console.log(JSON.stringify(document.signatures))
+      //console.log(JSON.stringify(obj, null, 2))
+      fs.writeFile("../../data/payload.json", JSON.stringify(obj, null, 2), function(err){
+        if (err) return console.log(err);
 
       })
     })
