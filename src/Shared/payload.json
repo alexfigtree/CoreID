@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "entries": [
     {
       "title": "Promissory Note",
@@ -58,3 +59,53 @@
     }
   ]
 }
+=======
+ "entries":[
+
+   {
+   "title": "3rd Ship-To Address",
+   "payload": {
+    "street": "124 Elm Street",
+    "city": "Cambridge"
+   },
+   "signatures":[]
+
+ },
+
+
+ {
+   "title":"Promissory Note",//headers don't get signed
+   "payload": {//everything in here will get signed
+     "iss": "https://example.com",
+     "exp": 123456789,
+     "iat": 123456780
+   },
+   "signatures":[]
+
+
+
+ },
+ {
+   "title": "Ship-To Address",
+   "payload": {
+     "iss": "https://example.com",
+     "exp": 123456719,
+     "iat": 123456789
+   },
+   "signatures":[]
+
+ },
+
+ {
+   "title":"",
+   "payload": {
+     "iss": "https://example.com",
+     "exp": 123456789,
+     "iat": 123436789
+   },
+   "signatures":[]
+
+ }
+ ]
+}
+>>>>>>> Stashed changes

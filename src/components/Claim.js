@@ -12,16 +12,25 @@ export default class Claim extends Component {
       console.log(claim)
       var client = new bitcoin.Client({
         host: 'localhost',
-        port: '8080/bitcoind',
-        user: 'fred',
-        pass: 'fred'
+        port: '8081/bitcoind',
+        user: 'user',
+        pass: 'pass'
       })
-      var address = 'mkqCZE3X1Yab7pHkg3FnVNvaYSx8p8N3Zs'
+      var address = 'mfktUYX4YPoiPuxNJujk7uJLM1ZcN16JbG'
       var shasum = crypto.createHash('sha256')
       var jsonObject = claim
       for (var key in claim){
         if(key.toString() != "signedBy" && key.toString() != "signed" && key.toString() != "signedDate" && key.toString() != "rejected" && key.toString() != "signatures" && key.toString() != "verifiedBy"){
-          shasum.update(Buffer.from(claim[key].toString()))
+          console.log(claim[key].toString(), key)
+          if(key == "payload"){
+            for(var payloadkey in claim[key]){
+              console.log(payloadkey)
+              shasum.update(Buffer.from(claim[key][payloadkey].toString()))
+            }
+          }else{
+            shasum.update(Buffer.from(claim[key].toString()))
+          }
+
         }
       }
       var hashedvalues = shasum.digest('hex')
